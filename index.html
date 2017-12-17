@@ -1,382 +1,285 @@
-<!--
-/**
- * Theme:       : GhostScroll (Based on Casper)
- * Created by   : Yonatan Wolowelsky
- * Website      : http://grmmph.com
- * License      : MIT
- */
--->
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Game Curious Montréal</title>
 
-    <title>Game Curious MTL /// Curieux de Jeux MTL</title>
-    <meta name="description" content="Games for non-gamers / Jeux pour les non-joueuses et joueurs" />
+<!-- Shorcut icon -->
+<link rel="shortcut icon" href="img/favicon.png">
 
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="MobileOptimized" content="320" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Bootstrap Core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href='assets/css/screen.css' />
+<!-- Custom Fonts -->
+<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Vesper+Libre:700,900" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif" rel="stylesheet" type="text/css">
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<!-- Theme CSS -->
+<!--Taking this out because we don't need it right now : link href="css/grayscale.min.css" rel="stylesheet"-->
+<link href="css/editme.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css">
 
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href='assets/font-awesome/css/font-awesome.min.css'>
-
-    <link rel="canonical" href="http://gamecuriousmtl.mrgs.ca" />
-    <meta name="referrer" content="origin" />
-    
-    <meta property="og:site_name" content="Game Curious MTL /// Curieux de Jeux MTL" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Game Curious MTL /// Curieux de Jeux MTL" />
-    <meta property="og:description" content="Games for non-gamers / Jeux pour les non-joueuses et joueurs" />
-    <meta property="og:url" content="http://gamecuriousmtl.mrgs.ca" />
-    <meta property="og:image" content="content/images/2016/02/bird_curious_blog_cover_wide_side2" />
-    
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Game Curious MTL /// Curieux de Jeux MTL" />
-    <meta name="twitter:description" content="Games for non-gamers / Jeux pour les non-joueuses et joueurs" />
-    <meta name="twitter:url" content="http://gamecuriousmtl.mrgs.ca" />
-    <meta name="twitter:image:src" content="content/images/2016/02/bird_curious_blog_cover_wide_side2.png" />
-    
-    <script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "Website",
-    "publisher": "Game Curious MTL /// Curieux de Jeux MTL",
-    "url": "http://gamecuriousmtl.mrgs.ca",
-    "image": "content/images/2016/02/bird_curious_blog_cover_wide_side_med-3.png",
-    "description": "Games for non-gamers / Jeux pour les non-joueuses et joueurs"
+<!-- Twitter Embeds CSS -->
+<style>
+#twitter-widget-0 {
+	margin-left: auto;
+	margin-right: auto;
 }
-    </script>
+</style>
 
-    <meta name="generator" content="Ghost 0.7" />
-    <link rel="alternate" type="application/rss+xml" title="Game Curious MTL /// Curieux de Jeux MTL" href="/rss/" />
-</head>
-<body class="home-template">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/alike:n4:default.js" type="text/javascript"></script>
+	</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> Menu <i class="fa fa-bars"></i> </button>
+      <a class="navbar-brand page-scroll" href="index.html#page-top"> <span class="light"><i class="fa fa-gamepad" aria-hidden="true"></i> Curieux de jeux Montr&eacute;al<br>
+      Game Curious Montr&eacute;al</span> </a> </div>
     
-
-<header id="site-head" style="background-image: url(content/images/2016/02/bird_curious_blog_cover_wide_side2.png)">
-    <div class="vertical">
-        <div id="site-head-content" class="inner">
-
-            
-            <h1 class="blog-title">Game Curious MTL /// Curieux de Jeux MTL</h1>
-            <h2 class="blog-description">Games for non-gamers / Jeux pour les non-joueuses et joueurs</h2>
-
-            <a class='btn first'>About/À propos</a>
-            <a class='btn last'>Contact</a><br>
-            <i id='header-arrow' class="fa fa-angle-down"></i>
-        </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li class="hidden"> <a href="index.html#page-top"></a> </li>
+        <li> <a class="page-scroll" href="index.html#about"><span class="o-light"></span>À propos<br>
+          About</a> </li>
+        <!--li> <a class="page-scroll" href="index.html#location">Location</a> </li-->
+        <li> <a class="page-scroll" href="index.html#partners">Partenaires<br>
+          Partners</a> </li>
+        <li> <a class="page-scroll" href="index.html#contact">Contact</a> </li>
+        <li> <a class="page-scroll" href="faq.html"><span class="o-light"></span>FAQ</a> </li>
+        <li> <a class="page-scroll" href="espacesecuritaire.html">Safer Space Policy<br>
+          Politique d'espace sécuritaire</a> </li>
+      </ul>
     </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container --> 
+</nav>
 
+<!-- Intro Header -->
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 intro-text-box"> 
+          <h1 class="brand-heading"> Curieux de Jeux Montr&eacute;al </h1>
+          <p class="lead text-center">Une série d’événements accueillants joignant jeux et enjeux de justice sociale et anti-oppressives.</p>
+		  &sim;
+          <h1 class="brand-heading">Game Curious Montr&eacute;al</h1>
+          <p class="lead text-center">A series of welcoming events connecting games with social justice struggles.</p>
+          <p class="text-center"><a href="#launchparty" class="btn btn-warning btn-lg">LAUNCH PARTY</a></p>
+          <a href="#about" class="btn btn-circle page-scroll"> <i class="fa fa-long-arrow-down animated"></i> </a> 
+          <img src="img/bluebirdleft.png" id="bluebirdleft">
+          <img src="img/pinkbirdright.png" id="pinkbirdright">
+        </div>
+      </div>
+    </div>
+  </div>
 </header>
 
-<main class="content" role="main">
+<!-- About Section -->
+<section id="about" class="container-fluid content-section text-center">
+  <div class="row">
+    <div class="col-lg-5 col-lg-offset-1">
+      <h2>Êtes vous curieux de jeux?</h2>
+      <p class="lead">Curieux de Jeux Montréal est une série d’événements publics gratuits visant la création d’un espace pour les personnes qui sont nouvelles aux jeux, ou qui se sentent marginalisées ou exclues par la culture dominante. On se rencontre, on joue à des jeux et on discute des sujets qu’ils touchent, comme un club de lecture pour les jeux!</p>
+      <p>Nous nous intéresserons aux jeux digitaux et non-digitaux d'une perspective anti-capitaliste, anti-coloniale, et anti-oppressive, avec la participation de groupes communautaires et de collectifs locaux. Donc, c'est comme un club de lecture radical pour les jeux!</p>
+      <p>Nous visons à aider à tisser des liens entre les communautés, à créer un environnement accueillant pour la discussion, à explorer le potentiel des jeux comme forme d'expression politique, et à fournir de nouvelles voies à toute personne qui souhaite apprendre et s'impliquer dans les luttes sociales et environnementales. Aussi, on a des snacks!</p>
+      <p>Le programme est inspiré et développé en  partenariat avec le programme Toronto Game Curious, qui à débuté en 2013 et est  présentement organizé par les organisations Hand Eye Society et Art Starts.  Vous pouvez en apprendre plus sur le programme torontois à: <a href="http://handeyesociety.com/game-curious/">http://handeyesociety.com/game-curious/</a></p>
+    </div>
+    <div class="col-lg-5">
+      <h2>Are you game curious?</h2>
+      	<p class="lead">Game Curious Montréal is a series of free public events aimed at creating a space for people who are new to games, or who feel marginalized or excluded by the dominant culture. We meet, play games and talk about them and the issues they explore, like a book club for games!</p>
+        <p>We will explore digital and non-digital games from an anti-capitalist, anti-colonial, and anti-oppressive perspective, with participation from local grassroots organizations and collectives. So it’s a radical book club for games!</p>
+        <p>We want to help build bridges between communities, create a welcoming environment for discussion, explore the possibilities of games as a form of political expression, and provide new avenues for people to learn about and get involved in addressing social and environmental issues. Also, we have snacks!</p>
+      <p>The program is inspired by and has been developed in partnership with the Toronto Game Curious program, which started in 2013 and is currently organized by the Hand Eye Society and Art Starts. You can find out more about the Toronto program at: <a href="http://handeyesociety.com/game-curious/">http://handeyesociety.com/game-curious/</a></p>
+    </div>
+  </div>
+</section>
 
-    <div class='fixed-nav'>
+<!-- Schedule Section -->
+<section id="launchparty" class="container-fluid content-section text-center" >
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-3"> 
+	    <img src="img/launchparty/launchbanner.jpg" class="img-responsive" alt=""/ style="margin-bottom: 20px;">
+	    <br>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-5 col-lg-offset-1">
+      <h2>Game Curious MTL Launch Party!</h2>
+      <p><strong>Quand:</strong> 13 janvier 2017, 18hrs - 23hrs<br>
+	     <strong>O&ugrave;:</strong> QPIRG Concordia (1500 de Maisonneuve O., room 204)<br>
+	     <a href="https://www.facebook.com/events/296609784174094/">Événement Facebook</a><br>
+	     <a href="http://www.qpirgconcordia.org/accessibility/?lang=fr">Information sur la politique d'accessibilité de QPIRG</a>
+      </p>
+      <hr>
+      <p>Venez célébrer le lancement de Curieux de Jeux Montréal 2018! Joignez vous à nous le 2 Décembre pour jouer à des jeux, manger des snacks et apprendre à mieux connaître Curieux de Jeux, les différents thèmes pour l’édition 2018, ainsi que les organismes participants.</p>
+      <p>Curieux de Jeux Montréal est une série d’événements publics gratuits visant la création d’un espace pour les personnes qui sont nouvelles aux jeux, ou qui se sentent marginalisées ou exclues par la culture dominante. On se rencontre, on joue à des jeux et on discute des sujets qu’ils touchent, comme un club de lecture pour les jeux! Nous invitons des gens de différents organismes et collectifs communautaires locaux pour l’édition 2018, et nous nous concentrerons sur la manière dont différents enjeux sociaux et environnementaux sont adressés par les jeux numériques.</p>
+      <p>Cet événement est gratuit. Vous pouvez trouver plus d’informations sur l'accessibilité ici: <a href="http://www.qpirgconcordia.org/accessibility/?lang=fr">http://www.qpirgconcordia.org/accessibility/?lang=fr</a>
+      </p>
+    </div>
+    <div class="col-lg-5">
+      <h2>Game Curious MTL Launch Party!</h2>
+      <p><strong>When:</strong> January 13 2017, 6PM - 11PM<br>
+	     <strong>Where:</strong> QPIRG Concordia (1500 de Maisonneuve O., room 204)<br>
+		 <a href="https://www.facebook.com/events/296609784174094/">Facebook Event</a><br>
+		 <a href="http://www.qpirgconcordia.org/accessibility/">QPIRG Accessibility Information and Policies</a>
+      </p>
+      <hr>
+      <p>Come celebrate with us the launch of Game Curious Montréal 2018! Join us on December 2 to play games, have snacks and get to know more about Game Curious, the different themes for 2018 edition, and the participating organizations.</p>
+      <p>Game Curious Montréal is a series of free public events aimed at creating a space for people who are new to games, or who feel marginalized or excluded by the dominant culture. We meet, play games and talk about them and the issues they explore, like a radical book club for games! In the 2018 edition, we're inviting people from different local grassroots organizations and collectives, and will focus on how various social and environmental issues are addressed through digital games.</p>
+	  <p>This is a free event. You can find more info about venue accessibility here: <a href="http://www.qpirgconcordia.org/accessibility">http://www.qpirgconcordia.org/accessibility</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- Schedule Section -->
+<section id="schedule" class="container-fluid content-section text-center" >
+  <div class="row">
+    <div class="col-lg-5"> 
+	    <img src="img/a1.jpg" width="647" height="1000" alt=""/>
+  	</div>
+    <div class="col-lg-5 text-left" style="margin-top: 25px;">
+      <h2>Calendrier</h2>
+	  <p>
+		  <ul class="schedule-list">
+			  <li class="schedule-list-item">Jan 13 - <strong><a href="https://www.facebook.com/events/296609784174094/">Curieux de Jeux Launch Party</a></strong> à QPIRG Concordia</li>
+			  <li class="schedule-list-item">Jan 21 - <strong>Immigration et frontières</strong> au Café Aquin</li>
+			  <li class="schedule-list-item">Jan 28 - <strong>La justice environnementale et la décolonisation</strong> au Café Aquin</li>
+			  <li class="schedule-list-item">Fev 4 - <strong>La police et les prisons</strong> au Café Aquin</li>
+			  <li class="schedule-list-item">Fev 11 - <strong>Le féminisme et le consentement</strong> au Café Aquin</li>
+			  <li class="schedule-list-item">Fev 18 - <strong>Le capitalisme et les luttes ouvrières</strong> au Café Aquin</li>
+		  </ul>
+	  </p>
+	  <hr>
+      <h2>Calendar</h2>
+	  <p>
+		  <ul class="schedule-list">
+			  <li class="schedule-list-item">Jan 13 - <strong><a href="https://www.facebook.com/events/296609784174094/">Game Curious Launch Party</a></strong> at QPIRG Concordia</li>
+			  <li class="schedule-list-item">Jan 21 - <strong>Immigration and Borders</strong> at Café Aquin</li>
+			  <li class="schedule-list-item">Jan 28 - <strong>Environmental Justice and Decolonization</strong> at Café Aquin</li>
+			  <li class="schedule-list-item">Feb 4 - <strong>Policing and Prisons</strong> at Café Aquin</li>
+			  <li class="schedule-list-item">Feb 11 - <strong>Feminism and Consent</strong> at Café Aquin</li>
+			  <li class="schedule-list-item">Feb 18 - <strong>Capitalism and Workers’ Struggles</strong> at Café Aquin</li>
+		  </ul>
+	  </p>
+    </div>
+  </div>
+</section>
+
+<!-- Location Section -->
+<!--section id="location" class="container-fluid content-section text-center">
+  <div class="row">
+    <div class="col-lg-5 col-lg-offset-1">
+      <iframe width="100%" height="100%;" src="https://www.google.com/maps/embed/v1/place?q=Universit%C3%A9%20du%20Qu%C3%A9bec%20%C3%A0%20Montr%C3%A9al%2C%20405%20Rue%20Sainte-Catherine%20Est%2C%20Montr%C3%A9al%2C%20QC%20H2L%202C4&key=AIzaSyCCqLLgaZrzxIzy1wd2oc3C-1iUrLNavl4" allowfullscreen></iframe>
+    </div>
+    <div class="col-lg-5 text-left">
+      <h2>Location</h2>
+      <p>Où? <strong>Université du Québec à Montréal, local A-2030</strong></p>
+      <p>Qui? <strong>Adultes et mineur(e)s accompagné(e)s</strong></p>
+      <p>Coût <strong>Gratuit! Des collations seront fournies.</strong></p>
+      <p>Garde d'enfant? <strong>Info à venir.</strong></p>
+      <h3>Accessibilité</h3>
+      <p>Malheureusement, les lieux ne sont pas accessibles aux fauteuils roulants, mais ce sera une priorité maximum pour les années futures. Si vous avez des suggestions pour des emplacements accessibles et gratuits, merci de nous les faire savoir! <!--Il y a une toilette individuelle pour tous au deuxième étage et dans le sous-sol de la bibliothèque. Plus de détails à venir bientôt! Si vous avez besoin de plus d'informations à propos de l'accessibilité, merci d'envoyer un courriel à gamecuriousmtl@mrgs.ca</p>
+    </div>
+  </div>
+  <div class="row">
+	  <h2>Location</h2>
+	<div class="col-lg-5 col-lg-offset-1 text-left">
+      <p>Where? <strong>Université du Québec à Montréal, local A-2030</strong></p>
+      <p>Who? <strong>Adults and accompanied minors.</strong></p>
+      <p>Cost <strong>Nothing, it’s free! Snacks will be provided.</strong></p>
+      <p>Childcare? <strong>Information coming.</strong></p>
+	</div>
+    <div class="col-lg-5">
+      <!--h3>Accessibility Information</h3>
+      <p>CAFÉ AQUIN ACCESSIBILITY?</p>  
     </div>
 
-    <div class='post-holder'>
-        
-                <article class="post tag-fr first">
-        
-            <header class="post-header">
-                
-                <h2 class="post-title">À propos de Curieux de Jeux MTL (FR)</h2>
+  </div>
+</section-->
 
-            </header>
-            <section class="post-content">
-                <p><i>
-  <p>"Les jeux, c’est pas juste pour les enfants?" </p>
-  
-  <p>"Est-ce qu’il y a des jeux vidéos qui ne sont pas juste de la violence?" </p>
-  
-  <p>"Pourquoi est-ce que les gens passent si longtemps à jouer aux jeux vidéos?" </p>
-  
-  <p>"Est-ce que je peux utiliser les jeux pour m’exprimer ou adresser des problèmes important?" </p>
-  
-  <p>"Comment puis-je parler à mes enfants des jeux auxquels ils jouent?"</p>
-</i>
+<!--Linking to FAQ and Safer Space section-->
 
-<h3 id="tesvouscurieuxdejeux">Êtes-vous curieux de jeux?</h3>
+<section id="saferspace" class="container-fluid content-section text-center">
+	<div class="row">
+		<div class="col-lg-5 col-lg-offset-1">
+			<h2>FAQ</h2>
+			<p>La page de la foire à question (FAQ) <a href="faq.html">se trouve ici</a>.</p>
+			<p>The Frequently Asked Questions page <a href="faq.html">can be found here</a>.</p>
+		</div>
+		<div class="col-lg-5">
+			<h2>Politique d'espace sécuritaire<br>Safer Space Policy</h2>
+			<p>La page avec notre politique <a href="espacesecuritaire.html">se trouve ici</a>.</p>
+			<p>The Safer Space policy page <a href="espacesecuritaire.html">can be found here</a>.</p>
+		</div>
+	</div>
+</section>
 
-<p>Curieux de Jeux Montréal est un programme gratuit sur le jeu vidéo, pendant six semaines, pour toute personne ne se considérant pas comme “joueur” ou “joueuse”. Chaque session aura une durée de deux heures et servira d’introduction à une grande variété de jeux différents, incluant des discussions et activités de groupes. Le tout se déroulera dans un environnement agréable et sans pression pour débutants. Le groupe abordera à chaque semaine un thème différent, allant de l'utilisation des jeux comme outils d’éducation, en passant par les communautés en ligne, à la création de jeux comme moyen d'expression personnelle.</p>
+<!---->
 
-<p>Curieux de Jeux Montréal vise principalement un public d’âge adulte, et les personnes mineures accompagnées sont aussi les bienvenues. Veuillez prendre en compte que les jeux et les sujets de discussions abordés pourraient être sensibles.</p>
-
-<p>Vous pouvez vous attendre à voir et à jouer à des jeux sur des sujets aussi variés que la mort, la maladie, la pauvreté, la guerre, les frontières, le colonialisme, la révolution, l'oppression quotidienne, l'identité, le vol spatial, la science, l'histoire, la fantaisie, la magie, l'aventure, et plus!</p>
-
-<p>Le programme est inspiré et développé en partenariat avec le programme Toronto Game Curious, qui à débuté en 2013 et est présentement organizé par les organisations Hand Eye Society et Art Starts. Vous pouvez en apprendre plus sur le programme torontois à: <a href="http://handeyesociety.com/game-curious/">http://handeyesociety.com/game-curious/</a> </p><br>
-
-<div class="image-div">  
-<img src="content/images/2016/02/bird_curious_blog_bird1.png" />
-</div> <br>
-
-<h3 id="detailsfr">Détails</h3>
-
-<p><strong>Quand:</strong> 21 mai au 25 juin 2016, à chaque samedi de 14h à 16h</p>
-
-<p><strong>Où:</strong> Bibliothèque Atwater (2ème étage), 1200 avenue Atwater, Westmount, Québec</p>
-
-<p><strong>Qui:</strong> Adultes et mineur(e)s accompagné(e)s</p>
-
-<p><strong>Coût:</strong> Gratuit! Des collations seront fournies.</p>
-
-<p><strong>Inscription (non-obligatoire):</strong> <a href="https://www.eventbrite.com/e/game-curious-mtl-curieux-de-jeux-mtl-tickets-25175377231">https://www.eventbrite.com/e/game-curious-mtl-curieux-de-jeux-mtl-tickets-25175377231</a></p>
-
-<br>  </p>
-
-<h6 id="calendrier">Calendrier provisoire</h6>
-<p>21 mai - Jeux locaux<br>
-28 mai - Raconter une histoire par le jeu<br>
-4 juin - « Art games » et les jeux expérimentaux<br>
-11 juin - Jeux l’éducatifs<br>
-18 juin - Jouer en ligne<br>
-25 juin - Compétition, collaboration et la communauté<br></p><br>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.0618629682835!2d-73.58646768449502!3d45.48869897910123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6d6493fd17%3A0xcae8ae1d7ac5ea74!2sAtwater+Library+and+Computer+Centre!5e0!3m2!1sen!2sca!4v1455732873085" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  
-
-<p><br>  </p>
-
-<h6 id="inscrivezvousnotrelistedenvoi">Inscrivez-vous à notre liste d’envoi!</h6>
-
-<p>Envoyez un courriel à <a href="mailto:gamecuriousmtl@mrgs.ca">gamecuriousmtl@mrgs.ca</a> pour recevoir des mise-à-jours et rappels à propos du programme.</p><br>
-
-<h3 id="espacesscuritaires">Espaces Sécuritaires</h3>
-
-<p>Tous les participants à Curieux de Jeux sont attendus à lire et se conformer à notre <a href="http://mrgs.ca/safer-space/">Politique d’Environnement Plus Sécuritaire</a>. Les environnement plus sécuritaires sont des espaces publics amicaux et calmes, ayant pour but la promotion de l’ouverture d’esprit et respect mutuel, aussi bien que la sécurité physique et mentale, en particulié celle de groupes marginalisées. Le racisme, sexisme, capacitisme, homophobie, transphobie et tout autre formes de discrimination et harcèlement ne seront aucunement tolérés.</p>
-
-<p>Le texte complet de notre politique est disponible <a href="http://mrgs.ca/safer-space/">ici</a>. Des copies imprimées seront disponibles à l’événement.</p><br>
-
-<h3 id="accessibilite">Accessibilité</h3>
-
-<p>Malheureusement, les lieux ne sont pas accessibles aux fauteuils roulants, mais ce sera une priorité maximum pour les années futures. Si vous avez des suggestions pour des emplacements accessibles et gratuits, merci de nous les faire savoir!
-Il y a une toilette individuelle pour tous au deuxième étage et dans le sous-sol de la bibliothèque. Plus de détails à venir bientôt! Si vous avez besoin de plus d'informations à propos de l'accessibilité, merci d'envoyer un courriel à 
-<a href="mailto:gamecuriousmtl@mrgs.ca">gamecuriousmtl@mrgs.ca</a></p><br>
-
-<div class="image-div">  
-<img src="content/images/2016/02/bird_curious_blog_bird2.png" />
-</div>  
-<br>
-<h3 id="quisommesnous">Qui sommes-nous?</h3>
-
-<p>Curieux de Jeux Montréal est organisé par la <a href="http://www.mrgs.ca">Société Ludique du Mont-Royal</a>, une organisation volontaire à buts non-lucratifs dédiés au support de la création non-commerciale de jeux et promouvoir l’inclusivité dans le domaine des jeux. Nous organisons une grande variété d’événements, incluant des rendez-vous mensuels, en plus d’événements annuels comme <a href="princess.mrgs.ca">Princess of Arcade</a> et <a href="gameloop.mrgs.ca">GameLoop Montréal</a>.</p><br>
-
-<h3 id="recherche">Recherche</h3>
-
-<p>Game Curious est organisé avec la participation de Tara Ogaick, une chercheuse qui sera présente à tous les événements. Le but de sa recherche est de pouvoir aider d'autres organisations communautaires intéressées à mener des programmes similaires dans le futur. Nous voulons apprendre les questions des personnes à l'extérieur de l'industrie du jeu et des communautés de joueurs, sur les jeux et leur impact social, le jeu en ligne, et plus. Nous aimerions en savoir plus sur les sujets qui sont les plus importants pour vous, ce que vous pensez de Game Curious ou des jeux auxquels vous avez joué et dont vous avez entendu parler, votre niveau de confort dans les discussions de groupe, ou toute autre chose que vous souhaitez partager!
-</p>
-
-<p>Pour contacter Tara directment: <a href="mailto:gamecurious.research@gmail.com">gamecurious.research@gmail.com</a></p><br>
-
-<h3 id="nospartenaires">Nos Partenaires</h3>
-
-<p>Ce programme serait impossible sans l’aide de nos partenaires.</p>
-
-<p><a href="http://www.handeyesociety.com">Hand Eye Society</a></p>
-
-<div class="image-div" style="width: 300px;">  
-<img src="content/images/2016/02/HElogo-newtype-01.png" alt="Hand eye logo" />
-</div>  
-
-<p><a href="http://www.refig.ca/">Refiguring Innovation in Games (REFIG)</a></p>
-
-<div class="image-div" style="width: 300px;">  
-<img src="content/images/2016/02/ReFiG-final-animation.gif" alt="Refig logo" />
-</div>  
-
-<p><a href="http://www.atwaterlibrary.ca/">Atwater Library and Computer Centre</a></p>
-
-<div class="image-div" style="width: 300px;">  
-<img src="content/images/2016/02/ALCC_Logotype Medium_Blue-1.jpg" alt="Atwater logo" />
-</div>  
-
-<p><a href="http://tag.hexagram.ca/">Technoculture Art and Games Research Centre (TAG)</a></p>
-
-<div class="image-div" style="width: 300px;">  
-<img src="content/images/2016/02/Taglogo-1024x726.png" alt="TAG logo" />
-</div></r></p></p>
-            </section>
-        </article>
-        <div class='post-after'></div>
+<!-- Partners Section -->
+<section id="partners" class="container-fluid content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2" class="partners-logo">
+	    <h2>Partenaires <br>Partners</h2>
+      <a href="http://mrgs.ca/" target="_blank"><img src="http://mrgs.ca/wp-content/themes/WP-Foundation/img/mergsey.png" alt="mrgs logo" style="width:200px;height:auto;"></a>
+      <a href="http://www.qpirgconcordia.org/" target="_blank"><img src="img/qpirgconcordialogo.png" alt="qpirg concordia logo" style="width: 200px; height:auto;"></a>
+      <a href="https://aveq-nous.ca/" target="_blank"><img src="img/AVEQ-logo-250x212.png" alt="qpirg concordia logo" style="width: 200px; height:auto;"></a>
     </div>
+  </div>
+</section>
 
-    <div class='post-holder'>
-        
-                    <article class="post tag-en">
-        
-            <header class="post-header">
-                
-                <h2 class="post-title">About Game Curious MTL (EN)</h2>
-
-            </header>
-            <section class="post-content">
-                <p><i>
-  <p>“Aren’t games just for kids?” </p>
-  
-  <p>“Are there any games out there that aren’t just about shooting and killing?” </p>
-  
-  <p>“Why do people spend so much time playing videogames?”</p>
-  
-  <p>“Can I use games to express myself or address important issues?” </p>
-  
-  <p>“How do I talk to my children about the games they play?”
-</p>
-</i>
- <br>  
-<h2 id="areyougamecurious">Are you Game Curious?</h2>
-
-<p>Game Curious Montréal is a free, 6-week long program all about games, for people who don’t necessarily identify as “gamers.” Sessions are two hours long and will provide an introduction to a wide variety of games, as well as open discussions and group activities, in a zero-pressure, beginner-friendly environment. Each week we’ll focus on a different theme, ranging from games in education to online communities to games about personal experiences and storytelling. </p>
-
-<p>Game Curious Montréal is aimed primarily at adults, however accompanied minors are also welcome. Please be aware that the games and discussions may touch on difficult issues or topics.</p>
-
-<p>You can expect to see and play games about poverty, war, borders, colonialism, revolution, death, illness, everyday oppression, identity, love, sexuality, space travel, science, history, fantasy, magic, adventure, and more! </p>
-
-<p>The program is inspired by and has been developed in partnership with the Toronto Game Curious program, which started in 2013 and is currently organized by the Hand Eye Society and Art Starts. You can find out more about the Toronto program at: <a href="http://handeyesociety.com/game-curious/">http://handeyesociety.com/game-curious/</a></p><br>
-
-<div class="image-div">  
-<img src="content/images/2016/02/bird_curious_blog_bird1.png" />
-</div><br>
-
-<h3 id="details">Details</h3>
-
-<p><strong>When:</strong> May 21st-June 25th, every Saturday from 2-4pm</p>
-
-<p><strong>Where:</strong> Atwater Library (2nd floor), 1200 Atwater Ave., Westmount, Quebec</p>
-
-<p><strong>Who:</strong> Adults and accompanied minors</p>
-
-<p><strong>Cost:</strong> Nothing, it’s free! Snacks will be provided</p>
-
-<p><strong>Optional registration:</strong> <a href="https://www.eventbrite.com/e/game-curious-mtl-curieux-de-jeux-mtl-tickets-25175377231">https://www.eventbrite.com/e/game-curious-mtl-curieux-de-jeux-mtl-tickets-25175377231</a></p>
-<br>  </p>
-
-<h6 id="schedule">Tentative Schedule</h6>
-<p>
-May 21 - Local Games<br>
-May 28 - Storytelling through Games<br>
-June 4 - Experimental Art Games<br>
-June 11 - Games and Education<br>
-June 18 - Playing Online<br>
-June 25 - Competition, Collaboration, and Community<br>
-</p><br>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.0618629682835!2d-73.58646768449502!3d45.48869897910123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6d6493fd17%3A0xcae8ae1d7ac5ea74!2sAtwater+Library+and+Computer+Centre!5e0!3m2!1sen!2sca!4v1455732873085" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  
-
-<p><br>  </p>
-
-<h6 id="signupforourmailinglist">Sign up for our mailing list</h6>
-
-<p>Send an email to <a href="mailto:gamecuriousmtl@mrgs.ca">gamecuriousmtl@mrgs.ca</a> to get updates and reminders about the program.</p><br>
-
-<h3 id="creatingsaferspaces">Creating Safer Spaces</h3>
-
-<p>All participants in Game Curious are expected to read and abide by our <a href="http://mrgs.ca/safer-space/">Safer Space policy</a>. Safer spaces are supportive, non-threatening environments that encourage open-mindedness, respect, a willingness to learn from others, as well as physical and mental safety, particularly for marginalized groups. Racism, sexism, ableism, homophobia, transphobia, and all other forms of discrimination and harassment will not be tolerated.</p>
-
-<p>The full text of the policy is <a href="http://mrgs.ca/safer-space/">available here</a>. Printed copies will also be available at the event.</p><br>
-
-<h3 id="accessibilite">Accessibility</h3>
-
-<p>Unfortunately the venue is not wheelchair accessible, however we plan to make this a top priority for future years. If you have suggestions for free, accessible venues, please let us know!
-
-There is a private, gender-neutral bathroom on the second floor, and another in the basement of the library. More details coming soon!
-
-If you need any other information related to accessibility, please send an email to: <a href="mailto:gamecuriousmtl@mrgs.ca">gamecuriousmtl@mrgs.ca</a></p><br>
-
-<div class="image-div">  
-<img src="content/images/2016/02/bird_curious_blog_bird2.png" />
-</div>  
-<br>
-<h3 id="whoarewe">Who are we?</h3>
-
-<p>Game Curious MTL is organized by the <a href="http://www.mrgs.ca">Mount Royal Game Society</a>, a volunteer-run, non-profit organization dedicated to supporting non-commercial game creation and fostering a more inclusive game culture. We run a wide variety of events, including monthly meetups, as well as yearly events like <a href="http://gameloop.mrgs.ca/">GameLoop Montreal</a> and <a href="http://princess.mrgs.ca/">Princess of Arcade</a>.</p><br>
-
-<h3 id="research">Research</h3>
-
-<p>Game Curious has an independent researcher, Tara Ogaick, who will be present at each event. The purpose of her research is to provide some guidelines for future communities and grassroots organizations wanting to run similar programs. We want to learn the concerns of people outside of games industries or games communities who have questions about games and their social impact, playing online, and more. We want to know what issues are the most important to you, how you feel about games at Game Curious or the games you've played or heard about, how comfortable you feel about talking in a group - anything at all!</p>
-
-<p>To get in touch with Tara directly, please email <a href="mailto:gamecurious.research@gmail.com">gamecurious.research@gmail.com</a></p><br>
-
-<h3 id="ourpartners">Our Partners</h3>
-
-<p>This program would not be possible without the help of our partners.</p>
-
-<p><a href="http://www.handeyesociety.com">Hand Eye Society</a></p>
-
-<div class="image-div" style="width: 300px;">  
-<img src="content/images/2016/02/HElogo-newtype-01.png" alt="Hand Eye logo" />
-</div>  
-
-<p><a href="http://www.refig.ca/">Refiguring Innovation in Games (REFIG)</a></p>
-
-<div class="image-div" style="width: 300px;">  
-<img src="content/images/2016/02/ReFiG-final-animation.gif" alt="Refig logo" />
-</div>  
-
-<p><a href="http://www.atwaterlibrary.ca/">Atwater Library and Computer Centre</a></p>
-
-<div class="image-div" style="width: 300px;">  
-<img src="content/images/2016/02/ALCC_Logotype Medium_Blue-1.jpg" alt="Atwater logo" />
-</div>  
-
-<p><a href="http://tag.hexagram.ca/">Technoculture Art and Games Research Centre (TAG)</a></p>
-
-<div class="image-div" style="width: 300px;">  
-<img src="content/images/2016/02/Taglogo-1024x726.png" alt="TAG logo" />
-</div></p>
-            </section>
-        </article>
-        <div class='post-after'></div>
+<!-- Contact Section -->
+<section id="contact" class="container-fluid content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>Contact</h2>
+      <p><strong>Courriel | Email:</strong> <a href="mailto:gamecuriousmtl@mrgs.ca">gamecuriousmtl@mrgs.ca</a> </p>
+      <p><strong>Rapports anonymes | Anonymous safer space reports</strong>: <a href="mailto:ssahmrgs@gmail.com">ssahmrgs@gmail.com</a> </p>
+      <p><strong>Société Ludique du Mont Royal | Mount Royal Game Society</strong>: <a href="http://mrgs.ca/" target="_blank">mrgs.ca</a> </p>
     </div>
+  </div>
+</section>
 
+<!-- Footer -->
+<footer>
+  <div class="container text-center">
+	<p style="text-align:center;">Curieux de jeux est un groupe de travail de QPIRG.<br>
+      Game Curious is a working group of QPIRG.</p>
+  </div>
+</footer>
 
-
-    <div class='post-holder'>
-        
-                    <article class="post tag-contact tag-en tag-fr last">
-        
-            <header class="post-header">
-                
-                <h2 class="post-title">Contact</h2>
-
-            </header>
-            <section class="post-content">
-                <p><p>Info: <a href="mailto:gamecuriousmtl@mrgs.ca">gamecuriousmtl@mrgs.ca</a></p>
-
-<p>Anonymous safer space reports / Rapports anonymes: <a href="mailto:ssahmrgs@gmail.com">ssahmrgs@gmail.com</a></p>
-
-<p>Mount Royal Game Society / Société Ludique du Mont Royal: <a href="http://www.mrgs.ca">mrgs.ca</a></p></p>
-            </section>
-        </article>
-        <div class='post-after'></div>
-    </div>
-
-
-    
-
-</main>
-
-    <footer class="site-footer">
-        <div class="inner">
-             <section class="poweredby"><a href="http://ghostscroll.grmmph.com/">GhostScroll</a> theme by <a href="http://grmmph.com">Yonatan</a>.<br>
-              Proudly published with <a class="i-ghost" href="http://ghost.org">Ghost</a></section>
-        </div>
-    </footer>
-
-    
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-
-    <script type="text/javascript" src='assets/js/icons.js'></script>
-    <script type="text/javascript" src='assets/js/index.js'></script>
-
+<!-- jQuery --> 
+<script src="vendor/jquery/jquery.js"></script> 
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ --> 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> 
+<!-- Bootstrap Core JavaScript --> 
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script> 
+<!-- Plugin JavaScript --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<!-- Theme JavaScript --> 
+<script src="js/grayscale.min.js"></script>
 
 </body>
 </html>
