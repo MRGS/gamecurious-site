@@ -1,141 +1,149 @@
 /** ZOLANI'S STYLE EDITS **/
 
 body {
-	background-image: url(../img/txt1.jpg);
-	background-size: 25% 25%;
-	background-repeat: repeat;
+  background-image: url(../img/txt1.jpg);
+  background-repeat: repeat;
 }
 h2 {
-	font-family: 'Vesper Libre', 'Palatino Linotype', serif;
-	text-transform: capitalize;
-	font-weight: 900;
-	font-size: 26pt;
+  font-family: 'Vesper Libre', 'Palatino Linotype', serif;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 26pt;
 }
 
 h3 {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 p {
-	margin: 0 0 25px;
-	font-size: 18px;
-	line-height: 1.5;
-	text-align: left;
-	font-family: 'Noto Sans', sans-serif;
-	font-weight: normal;
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: normal;
 }
 p em {
-	font-family: Lora, serif;
-	font-size: 14pt;
-	font-weight: normal;
+  font-family: Lora, serif;
+  font-size: 14pt;
+  font-weight: normal;
 }
 p a {
-	color: #8092eb;
-	-webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
-	text-decoration: underline;
+  color: #8092eb;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  text-decoration: underline;
 }
 p a:focus, p a:hover {
-	text-decoration: underline;
-	color: #B00000
+  text-decoration: underline;
+  color: #B00000
 }
 
 .schedule-list-item, .schedule-list {
-	font-family: 'Noto Sans', sans-serif;
-	font-size: 18px;
-	line-height: 1.5;
-	font-weight: normal;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: normal;
 }
 
 @media (max-width:1366px) {
-	#faq h3 {
-		font-size: 22px;
-	}
-	p {
-	font-size: 16px;
-	}
-	
+  #faq h3 {
+    font-size: 22px;
+  }
+  p {
+  font-size: 16px;
+  }
 }
 
 .intro-text-box {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .intro-text {
-	text-align: center;
+  text-align: center;
 }
 .intro {
-	color: #8B1010;
-	background-image: url(../img/text1long.png);
-	background-repeat: repeat;
-	background-size: contain;
-	z-index: 0;
+  color: #8B1010;
+}
+
+.bg-yellow {
+  background:
+    linear-gradient(
+      rgba(255, 210, 66, 0.45),
+      rgba(255, 210, 66, 0.45)
+    ),
+    url(../img/txt1.jpg) repeat;
+}
+
+.bg-lightyellow {
+  background:
+    linear-gradient(
+      rgba(240, 242, 174, 0.45),
+      rgba(240, 242, 174, 0.45)
+    ),
+    url(../img/txt1.jpg) repeat;
+}
+
+.bg-lightblue {
+  background:
+    linear-gradient(
+      rgba(154, 213, 255, 0.45),
+      rgba(154, 213, 255, 0.45)
+    ),
+    url(../img/txt1.jpg) repeat;
 }
 
 #bluebirdleft {
-	position: absolute;
-	left: -510px;
-	bottom: -20px;
-	z-index: 1;
+  position: absolute;
+  left: -510px;
+  bottom: -20px;
+  z-index: 1;
 }
 
 #pinkbirdright {
-	position: absolute;
-	right: -510px;
-	bottom: -20px;
-	z-index: 1;
+  position: absolute;
+  right: -510px;
+  bottom: -20px;
+  z-index: 1;
 }
 
 /** Navbar link colour **/
 .navbar-custom a {
-	color: #004A87;
+  color: #004A87;
 }
 /** Hover **/
 .navbar-custom .nav li a:hover {
-	color: #0085f0;
+  color: #0085f0;
 }
 #schedule img {
-	width: 80%;
-	height: 0%;
-	margin-bottom: 64px;
+  width: 80%;
+  height: 0%;
+  margin-bottom: 64px;
 }
-#location {
-	background-image: url(../img/txt6.jpg);
-	background-size: 15% auto;
-}
+
 #location p {
-	text-align: justify;
+  text-align: justify;
 }
 #location iframe {
-	float: left;
-	margin-bottom: 60px;
-	border: medium solid #000000;
-	height: 500px;
-
+  float: left;
+  margin-bottom: 60px;
+  border: medium solid #000000;
+  height: 500px;
 }
 
 @media (min-width:1366px) {
-	#location iframe {
-	height: 700px;
-
+  #location iframe {
+    height: 700px;
+  }
 }
 
-}
-
-#saferspace {
-	background-image: url(../img/txt5opaque.jpg);
-	background-size: 20% auto;
-}
-
-#launchparty {
-	background-image: url(../img/txt3.jpg);
-	background-size: 20% auto;
-}
 
 #partners > div:nth-child(2) > div > a > img {
-	margin-left: 20px;
-	margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.row .col-lg-6.col-lg-offset-3 img {
+#twitter-widget-0 {
+	margin-left: auto;
+	margin-right: auto;
 }

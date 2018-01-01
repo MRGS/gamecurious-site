@@ -1,0 +1,8 @@
+- ** visual assets are massive
+- overflows layout on both desktop and mobile
+
+- uses unminified, unconcatenated assets (css, js, etc) for everything
+- favicon missing?
+- no templates :((
+- old assets from last gc website still present?
+

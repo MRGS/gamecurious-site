@@ -11,10 +11,10 @@ html {
 }
 
 
-.navbar-custom { 
+.navbar-custom {
 	background-color: rgba(255, 138, 36, 1);
 }
- 
+
 body {
     background-color: #ffffff;
 }
@@ -33,7 +33,7 @@ body {
 
 .intro-text,
 #page-top > header > div > div > div > div > p {
-    
+
 }
 
 /** For Website Title **/
@@ -147,10 +147,6 @@ h6 {
 	background-repeat: no-repeat;
 	background-position: bottom center no-repeat #fff;
 	background-color: #fff;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover
 }
 
 .intro .intro-body {
@@ -165,7 +161,7 @@ h6 {
 
 .intro .intro-body .intro-text {
 	font-size: 24px;
-} 
+}
 
 #faq {}
 
@@ -182,7 +178,7 @@ h6 {
     .intro .intro-body .intro-text {
         font-size: 26px
     }
-	
+
 }
 
 .btn-circle {
@@ -256,11 +252,6 @@ h6 {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../putimageshere/downloads-bg.jpg) center center no-repeat #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover
 }
 
 #map {
@@ -277,7 +268,7 @@ h6 {
     .download-section {
         padding: 100px 0
     }
-    
+
 }
 
 .btn {
