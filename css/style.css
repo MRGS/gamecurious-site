@@ -143,6 +143,15 @@ p a:focus, p a:hover {
   margin-right: 20px;
 }
 
+.partners-link {
+  margin: 0 20px;
+}
+
+.partners-link img {
+  width: 200px;
+  height: auto;
+}
+
 #twitter-widget-0 {
 	margin-left: auto;
 	margin-right: auto;
