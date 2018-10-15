@@ -1,1 +1,8 @@
+_site
+.bundle
+.jekyll-metadata
 *.DS_Store
+Gemfile
+Gemfile.lock
+vendor/bundle
+rebuild.sh
