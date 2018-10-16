@@ -12,6 +12,13 @@ fb: https://facebook.com/gamecuriousmtl
 twitter: https://twitter.com/game_curious
 itch: https://gamecuriousmtl.itch.io
 
+# partner links
+qpirg: https://qpirgconcordia.org
+aveq: https://aveq-nous.ca
+pixelles: https://pixelles.ca
+ataqe: https://facebook.com/ataquepodcast
+mrgs: http://mrgs.ca
+
 collection:
         - games:
                 output: true
