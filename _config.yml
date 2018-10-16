@@ -1,0 +1,21 @@
+title: Game Curious Montreal - Curieux de Jeux Montréal
+url: https://gamecuriousmtl.mrgs.ca
+author: Game Curious Montreal Collective
+timezone: America/Toronto
+
+permalink: pretty
+markdown: kramdown
+
+email: gamecuriousmtl@gmail.com
+anonemail: ssahmrgs@gmail.com
+fb: https://facebook.com/gamecuriousmtl
+twitter: https://twitter.com/game_curious
+itch: https://gamecuriousmtl.itch.io
+
+collection:
+        - games:
+                output: true
+                permalink: /games/:path/
+
+plugins:
+        - jekyll-sitemap
