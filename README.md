@@ -27,6 +27,7 @@ Stuff that actually goes up on a staging or production site:
 
 #### Last Updated October 16 2018
 * Graphic design and coding: Zolani
-* Design and coding: Gersande & mstfa
-* Translation and copy: Joachim and the Game Curious Collective
+* Design and coding: Gersande
+* Additional coding: mstfa
+* Translation and copy: Joachim, mstfa and the Game Curious Collective
 
