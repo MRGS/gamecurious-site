@@ -7,7 +7,7 @@ To test out new Game Curious Montréal website themes
 Stuff that actually goes up on a staging or production site:
 
 ```   
--- index.html       
+-- index.md       
 -- espacesecuritaire.html       
 -- faq.html       
 -- css       
@@ -25,8 +25,8 @@ Stuff that actually goes up on a staging or production site:
 -- .gitignore (this is for git)
 ```
 
-#### Last Updated December 16 2017
+#### Last Updated October 16 2018
 * Graphic design and coding: Zolani
-* Design and coding: Gersande
+* Design and coding: Gersande & mstfa
 * Translation and copy: Joachim and the Game Curious Collective
 
