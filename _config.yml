@@ -29,6 +29,7 @@ collections:
           web: true
           dev: true
           tag: true
+          output: true
 
         feminism:
           title: true
@@ -36,6 +37,7 @@ collections:
           web: true
           dev: true
           tag: true
+          output: true
 
         decolonize:
           title: true
@@ -43,6 +45,7 @@ collections:
           web: true
           dev: true
           tag: true
+          output: true
 
         immigration:
           title: true
@@ -50,4 +53,5 @@ collections:
           web: true
           dev: true
           tag: true
+          output: true
 
