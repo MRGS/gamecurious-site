@@ -19,10 +19,35 @@ pixelles: https://pixelles.ca
 ataqe: https://facebook.com/ataquepodcast
 mrgs: http://mrgs.ca
 
-collection:
-        - games:
-                output: true
-                permalink: /games/:path/
-
 plugins:
         - jekyll-sitemap
+
+collections:
+        policing:
+          title: true
+          img: true
+          web: true
+          dev: true
+          tag: true
+
+        feminism:
+          title: true
+          img: true
+          web: true
+          dev: true
+          tag: true
+
+        decolonize:
+          title: true
+          img: true
+          web: true
+          dev: true
+          tag: true
+
+        borders:
+          title: true
+          img: true
+          web: true
+          dev: true
+          tag: true
+
