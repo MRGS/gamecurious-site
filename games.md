@@ -13,7 +13,7 @@ titre: Les Jeux
 #### 21 Janvier, 2018 — January 21, 2018
 
 {% for game in site.immigration %}
-<div style="float: {{ game.dir }}"> <img src="/img/{{ game.tag }}/{{ game.img }}" alt="{{ game.title }}"></div>
+<img src="/img/{{ game.tag }}/{{ game.img }}" alt="{{ game.title }}" class="img-responsive; {{ game.dir }}">
 ### {{ game.title }}, [{{ game.web }}](http://{{ game.web }}) <br>{{ game.dev }}
 
 {{ game.content }}
@@ -30,7 +30,7 @@ titre: Les Jeux
 #### 28 Janvier, 2018 — January 28, 2018
 
 {% for game in site.decolonize %}
-<div style="float: {{ game.dir }}"> <img src="/img/{{ game.tag }}/{{ game.img }}" alt="{{ game.title }}"></div>
+<img src="/img/{{ game.tag }}/{{ game.img }}" alt="{{ game.title }}" class="img-responsive; {{ game.dir }}">
 ### {{ game.title }}, [{{ game.web }}](http://{{ game.web }}) <br>{{ game.dev }}
 
 {{ game.content }}
@@ -47,7 +47,7 @@ titre: Les Jeux
 #### 4 Février, 2018 — February 4, 2018
 
 {% for game in site.policing %}
-<div style="float: {{ game.dir }}"> <img src="/img/{{ game.tag }}/{{ game.img }}" alt="{{ game.title }}"></div>
+<img src="/img/{{ game.tag }}/{{ game.img }}" alt="{{ game.title }}" class="img-responsive; {{ game.dir }}">
 ### {{ game.title }}, [{{ game.web }}](http://{{ game.web }}) <br>{{ game.dev }}
 
 {{ game.content }}
@@ -64,7 +64,7 @@ titre: Les Jeux
 #### 11 Février, 2018 — February 11, 2018
 
 {% for game in site.feminism %}
-<div style="float: {{ game.dir }}"> <img src="/img/{{ game.tag }}/{{ game.img }}" alt="{{ game.title }}"></div>
+<img src="/img/{{ game.tag }}/{{ game.img }}" alt="{{ game.title }}" class="img-responsive; {{ game.dir }}">
 ### {{ game.title }}, [{{ game.web }}](http://{{ game.web }}) <br>{{ game.dev }}
 
 {{ game.content }}

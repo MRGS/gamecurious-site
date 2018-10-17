@@ -17,7 +17,7 @@ html {
 body {
   font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000;
-  background-image: url(../img/txt1.jpg);
+  background-image: url(/img/txt1.jpg);
   background-repeat: repeat;
 }
 
@@ -387,7 +387,7 @@ p a:focus, p a:hover {
       rgba(255, 210, 66, 0.45),
       rgba(255, 210, 66, 0.45)
     ),
-    url(../img/txt1.jpg) repeat;
+    url(/img/txt1.jpg) repeat;
 }
 
 .bg-lightyellow {
@@ -396,7 +396,7 @@ p a:focus, p a:hover {
       rgba(240, 242, 174, 0.45),
       rgba(240, 242, 174, 0.45)
     ),
-    url(../img/txt1.jpg) repeat;
+    url(/img/txt1.jpg) repeat;
 }
 
 .bg-lightblue {
@@ -405,7 +405,7 @@ p a:focus, p a:hover {
       rgba(154, 213, 255, 0.45),
       rgba(154, 213, 255, 0.45)
     ),
-    url(../img/txt1.jpg) repeat;
+    url(/img/txt1.jpg) repeat;
 }
 
 .starburst {
@@ -484,4 +484,14 @@ p a:focus, p a:hover {
 .partners-link img {
   width: 200px;
   height: auto;
+}
+
+.left {
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+.right {
+	float: right;
+	padding: 0 20px 20px 0;
 }
