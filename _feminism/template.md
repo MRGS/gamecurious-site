@@ -3,7 +3,7 @@ title: TITLE
 web: WEBSITE
 dev: DEV
 img: IMG
-tag: TAG
+tag: feminismevent
 dir: DIR
 ---
 {% comment %}

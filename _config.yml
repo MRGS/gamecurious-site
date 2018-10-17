@@ -24,34 +24,10 @@ plugins:
 
 collections:
         policing:
-          title: true
-          img: true
-          web: true
-          dev: true
-          tag: true
-          output: true
-
+            output: true
         feminism:
-          title: true
-          img: true
-          web: true
-          dev: true
-          tag: true
-          output: true
-
+            output: true
         decolonize:
-          title: true
-          img: true
-          web: true
-          dev: true
-          tag: true
-          output: true
-
+            output: true
         immigration:
-          title: true
-          img: true
-          web: true
-          dev: true
-          tag: true
-          output: true
-
+            output: true

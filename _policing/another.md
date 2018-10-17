@@ -3,7 +3,7 @@ title: An/Other
 web: sparkcomic.com/AnOther/WebVer.html
 dev: Jordan Sparks
 img: anotherjordansparks.png
-tag: policing
+tag: policeprisonsgames
 dir: left
 ---
 An/Other "simule un journée dans la vie d’un homme noir et montre comment le racisme fonctionne dans la société Canadienne - parfois systémique et évident, la plupart du temps banal et insidieux." Le jeu se base sur les expériences personnelles du créateur par rapport au racisme, et touche sur la pratique du "cardage" et du profilage racial par la police.

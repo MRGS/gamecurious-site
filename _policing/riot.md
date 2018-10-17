@@ -3,7 +3,7 @@ title: Riot - Civil Unrest
 web: riotsimulator.com
 dev: IV Productions
 img: riotcivilunrest.png
-tag: policing
+tag: policeprisonsgames
 dir: left
 ---
 Ce jeu nous permet de prendre le rôle des émeutier.e.s ou de l’escouade anti-émeute, mais suggère, au travers de ses règles, que certaines tactiques ou stratégies sont plus désirables que d’autres.

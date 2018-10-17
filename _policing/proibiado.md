@@ -3,6 +3,7 @@ title: These Violent Games (Esses Games Violentos Proibidão)
 web: pedro-pavia.itch.io/proibidao
 dev: Various Artists
 img: thisviolentgamesproibidao.png
+tag: policeprisonsgames
 dir: right
 ---
 Jeux produits en 2014-2015 à porto Alegre, dans le contexte de cours d’art dans la Escola Estadual Tom Jobim. Les auteurs utilisent des pseudonymes puisqu’ils sont d’âge mineur et confinés à une institution pour adolescents en conflit avec la loi. Le projet est dirigé par Pedro Paiva, qui est aussi responsable pour le code et le son.
