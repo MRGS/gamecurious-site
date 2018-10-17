@@ -25,9 +25,17 @@ plugins:
 collections:
         policing:
             output: true
+        policingextra:
+            output: true
         feminism:
+            output: true
+        feminismextra:
             output: true
         decolonize:
             output: true
+        decolonizeextra:
+            output: true
         immigration:
+            output: true
+        immigrationextra:
             output: true
