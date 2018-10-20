@@ -495,3 +495,22 @@ p a:focus, p a:hover {
 	float: right;
 	padding: 0 20px 20px 0;
 }
+
+table {
+	width: 80%;
+	font-size: 1.42rem;
+	padding: 10px;
+}
+
+th {
+	height: 2.32em;
+	font-size: 2.11rem;
+	background-color: #d2d2d2;
+}
+th, td{
+	padding: 10px;
+}
+tr:nth-child(even){
+	background-color: #d2d2d2;
+	opacity: 80%;
+}
