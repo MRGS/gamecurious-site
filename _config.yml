@@ -21,6 +21,10 @@ pixelles: https://pixelles.ca
 ataqe: https://facebook.com/ataquepodcast
 mrgs: http://mrgs.ca
 
+# misc
+cwfr: Avertissements sur le Contenu
+cw: Content Warnings
+
 plugins:
         - jekyll-sitemap
 
