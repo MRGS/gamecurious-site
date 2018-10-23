@@ -5,11 +5,11 @@
 
 *Courriel / Email:* [{{ site.email }}](mailto:{{ site.email }})
 
-*Facebook:* [{{ site.fb }}]({{ site.fb }})
+*Facebook:* [{{ site.fb }}](https://{{ site.fb }})
 
-*Twitter:* [{{ site.twitter }}]({{ site.twitter }})
+*Twitter:* [{{ site.twitter }}](https://{{ site.twitter }})
 
-*Itch.io:* [{{ site.itch }}]({{ site.itch }})
+*Itch.io:* [{{ site.itch }}](https://{{ site.itch }})
 
 *Rapports anonymes / Anonymous safer space reports:* [{{ site.anonemail }}](mailto:{{ site.anonemail }})
 
