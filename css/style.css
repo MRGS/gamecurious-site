@@ -514,3 +514,20 @@ tr:nth-child(even){
 	background-color: #d2d2d2;
 	opacity: 80%;
 }
+
+.childDiv {
+	width: 49%;
+	padding: 0.5%;
+}
+.left {
+float: left;
+}
+.right {
+float: right;
+}
+.inline {
+float: inline-start;
+}
+img {
+	width: 320px;
+}
