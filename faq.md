@@ -21,7 +21,7 @@ On se rencontre, on joue à des jeux, et on les discute, comme un club de lectur
 
 ### J’ai participé à Curieux de Jeux l’année dernière. En quoi cette édition sera-t-elle différente?
 
-Si vous êtes venu à Curieux de Jeux auparavant, vous êtes rebienvenus parmi nous. Cette année, nous nous concentrons sur la manière dont différents enjeux sociaux et environnementaux sont abordés par les jeux numériques, et nous faisons équipe avec des organisations et collectifs locaux. Il y aura différents jeux à jouer, de nouvelles personnes à rencontrer et de nouveaux sujets à discuter, alors vous êtes invités à y participer de nouveaux (et à emmenez vos amis!).
+Si vous êtes venu à Curieux de Jeux auparavant, vous êtes rebienvenus parmi nous. Cette année, nous nous concentrons sur la manière dont différents enjeux sociaux et environnementaux sont abordés par les jeux numériques, et nous faisons équipe avec des organisations et collectifs locaux. Il y aura différents jeux à jouer, de nouvelles personnes à rencontrer et de nouveaux sujets à discuter, alors vous êtes invités à y participer de nouveaux (et emmenez vos amis!).
 
 ### À quels types de jeux jouerons-nous?
 
