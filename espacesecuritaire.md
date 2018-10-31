@@ -4,9 +4,9 @@ layout: default
 <!-- Safer Spaces Section -->
 <section id="saferspace" class="container-fluid content-section text-center">
   <div class="row">
-	  <div class="col-lg-4 col-lg-offset-4">
-		<br>
-	  </div>
+  <div class="col-lg-4 col-lg-offset-4">
+<br>
+  </div>
   </div>
   <div class="row">
    <div class="col-lg-5 col-lg-offset-1 safer-space-texts" markdown="1">
@@ -20,14 +20,15 @@ Il sera demandé aux participant(e)s dont le comportement nuit au bien-être des
 
 Si vous ressentez que quelqu’un nuit à votre confort et votre sécurité, si vous remarquez que le bien-être de quelqu’un d’autre est atteint, ou si vous avez quelconque autre souci, n’hésitez pas à contacter un(e) des volontaires ou des médiateurs/trices de la politique d’environnement sécuritaire. Les organisateurs(trices), les volontaires, et les médiateurs/trices seront prêts à vous aider à contacter la sécurité des lieux, à offrir de vous escorter, ou à vous aider de quelque autre manière à vous sentir en sécurité pendant nos événements. Votre présence compte pour nous.
 
-* Adresse courriel des organisateurs/trices: [{{ site.email }}](mailto:{{ site.email }})
+* Courriel de l'organisme: [{{ site.email }}](mailto:{{ site.email }})
+* Courriel de rapports anonymes: [{{ site.anonemail }}](mailto:{{ site.anonemail }})
 * Ligne d’aide aux agressions sexuelle: **514 398-8500** [SACoMSS](http://sacomss.org)
 * Urgences médicales locales: **911**
 * Compagnie de taxi locale: **Taxi Diamond 514 273-6331**
 
 La participation aux événements de Curieux de Jeux Montréal implique l’accord et l’adhérence à ces règles.
 
-Le texte de cette politique est adapté de [la police d'espace sécuritaire du MRGS](http://mrgs.ca/safer-space/) et [la police anti-harcèlement de la Conférence Geek Feminism]
+Le texte de cette politique est adapté de [la police d'espace sécuritaire du MRGS]({{ site.mrgs }}/safer-space/) et [la police anti-harcèlement de la Conférence Geek Feminism]
 
    </div>
 
@@ -43,15 +44,13 @@ Participants whose behaviour is making others around them feel unsafe will be as
 If you feel that someone is making the space unsafe for you, if you notice that someone else is being made to feel unsafe, or if you have any other concerns, please contact an organizer. Organizers and volunteers will be happy to help participants contact venue security, provide escorts, or otherwise help you to feel safe for the duration of the events. We value your attendance.
 
 * Email address of organizers: [{{ site.email }}](mailto:{{ site.email }})
+* Anonymous Safer Space report email: [{{ site.anonemail }}](mailto:{{ site.anonemail }})
 * Local sexual assault hotline: **514 398-8500** [SACoMSS](http://sacomss.org)
 * Local emergency and non-emergency medical: **911**
 * Local taxi company: **Taxi Diamond 514 273-6331**
 
 Attendance at Game Curious Montréal venues and social events implies that the participants agree to, and will abide by, these rules.
 
-The text for this policy is adapted from [the MRGS Safer Space policy](http://mrgs.ca/safer-space) and [the Geek Feminism Conference Anti-Harassment policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment)
+The text for this policy is adapted from [the MRGS Safer Space policy]({{ site.mrgs }}/safer-space) and [the Geek Feminism Conference Anti-Harassment policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment)
 
 </div>
-
-{% include contact.md %}
-

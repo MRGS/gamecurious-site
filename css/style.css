@@ -531,3 +531,14 @@ float: inline-start;
 img {
 	width: 320px;
 }
+
+#saferspace ul {
+	text-align: initial;
+	font-size: larger;
+	line-height: 5vh;
+}
+
+#schedule ul {
+	font-size: larger;
+	line-height: 5vh;
+}
