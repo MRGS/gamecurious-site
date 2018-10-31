@@ -6,3 +6,4 @@ Gemfile
 Gemfile.lock
 vendor/bundle
 rebuild.sh
+*.bk*
