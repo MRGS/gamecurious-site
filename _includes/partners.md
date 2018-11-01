@@ -1,4 +1,3 @@
-<!-- Partners Section -->
 <section id="partners" class="container-fluid content-section text-center">
 <div class="col-lg-12 partners-logo partners-link" markdown="1">
 ## Soutenu Par<br>Supported by
