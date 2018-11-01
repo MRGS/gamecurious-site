@@ -2,7 +2,7 @@
 layout: default
 title: Game Curious Montréal
 ---
-{% include intro.html %}
+{% include intro.md %}
 {% include about.md %}
 {% include safespace.md %}
 {% include sched.html %}

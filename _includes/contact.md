@@ -1,5 +1,5 @@
-<section id="contact" class="content-section text-center">
 <div class="row">
+<section id="contact" class="content-section text-center">
 <div class="col-lg-8 col-lg-offset-2" markdown="1">
 ## Contact
 
@@ -15,4 +15,3 @@
 
 *Société Ludique du Mont Royal / Mount Royal Game Society:* [mrgs.ca](http://mrgs.ca/)
 
-</div>
