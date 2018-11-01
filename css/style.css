@@ -481,6 +481,11 @@ p a:focus, p a:hover {
   margin: 20px;
 }
 
+.partners-link p {
+	display: inline-flex;
+	text-indent: 3vw;
+}
+
 .partners-link img {
   width: 200px;
   height: auto;

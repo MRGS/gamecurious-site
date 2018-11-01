@@ -6,5 +6,5 @@ title: Game Curious Montréal
 {% include about.md %}
 {% include safespace.html %}
 {% include sched.html %}
-{% include partners.html %}
+{% include partners.md %}
 {% include contact.md %}
