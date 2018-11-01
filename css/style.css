@@ -477,18 +477,30 @@ p a:focus, p a:hover {
   margin-right: 20px;
 }
 
-.partners-link {
-  margin: 20px;
+@media (max-width:42rem) {
+	.partners-link {
+		margin: 2rem;
+	}
+	.partners-link img {
+		width: 16rem;
+		height: auto;
+	  }
+	.partners-link p {
+		display: contents;
+	}
 }
-
-.partners-link p {
-	display: inline-flex;
-	text-indent: 3vw;
+@media (min-width:42rem) {
+	.partners-link {
+		margin: 5rem;
+	}
+	.partners-link img {
+		width: 20rem;
+		height: auto;
+	  }
+	.partners-link p {
+		display: inline-flex;
+		text-indent: 3vw;
 }
-
-.partners-link img {
-  width: 200px;
-  height: auto;
 }
 
 .left {
