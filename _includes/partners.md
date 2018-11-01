@@ -1,5 +1,5 @@
 <section id="partners" class="container-fluid content-section text-center">
-<div class="col-lg-12 partners-logo partners-link" markdown="1">
+<div class="partners-logo partners-link" markdown="1">
 ## Soutenu Par<br>Supported by
 [![mrgs logo]({{ site.mrgs }}/wp-content/themes/WP-Foundation//img/mergsey.png)]({{ site.mrgs }})
 [![qpirg concordia logo](/img/qpirgconcordialogo.png)]({{ site.qpirg }})
