@@ -15,7 +15,7 @@ Le collectif de Curieux de Jeux Montréal reconnaît que cette série se déroul
 
 Le collectif de Curieux de Jeux Montréal est un groupe de travail de QPIRG-Concordia.
 
-Le programme est inspiré et développé en  partenariat avec le programme Toronto Game Curious, qui à débuté en 2013 et est  présentement organizé par les organisations Hand Eye Society et Art Starts.  Vous pouvez en apprendre plus sur le programme Torontois sur leur [{{ site.gcto }}]({{ site.gcto }})
+Le programme est inspiré et développé en  partenariat avec le programme [Toronto Game Curious]({{ site.gcto }}), qui à débuté en 2013 et est  présentement organizé par les organisations Hand Eye Society et Art Starts.  Vous pouvez en apprendre plus sur le programme Torontois sur le [site web de Hand-Eye Society]({{ site.gcto }})
 
    </div>
 
@@ -33,7 +33,7 @@ The Game Curious Montreal Collective acknowledges that these events are taking p
 
 The Game Curious Montreal Collective is a working group of QPIRG-Concordia.
 
-The program is inspired by and has been developed in partnership with the Toronto Game Curious program, which started in 2013 and is currently organized by the Hand Eye Society and Art Starts. You can find out more about the Toronto program on [{{ site.gcto }}]({{ site.gcto }})
+The program is inspired by and has been developed in partnership with the [Toronto Game Curious]({{ site.gcto }}) program, which started in 2013 and is currently organized by the Hand Eye Society and Art Starts. You can find out more about the Toronto program on the [Hand-Eye Society website]({{ site.gcto }})
    </div>
   </div>
 </section>

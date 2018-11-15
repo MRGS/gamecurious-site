@@ -15,6 +15,7 @@ html {
 }
 
 body {
+  font-size: 1.2rem;
   font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000;
   background-image: url(/img/txt1.jpg);
@@ -35,7 +36,7 @@ h5,
 h6 {
   margin: 0 0 35px;
   font-weight: 700;
-  letter-spacing: 1px
+  letter-spacing: 0.1rem
 }
 
 .light {
@@ -47,14 +48,14 @@ h6 {
   background-color: rgba(255, 138, 36, 1);
 	font-family: Montserrat;
 	margin-bottom: 0;
-	border-bottom: 1px solid rgba(255, 255, 255, .3);
+	border-bottom: 1rem solid rgba(255, 255, 255, .3);
 	font-weight: 700;
 }
 
 .navbar-custom .navbar-toggle {
   color: #fff;
   background-color: rgba(255, 255, 255, .2);
-  font-size: 12px
+  font-size: 0.8rem;
 }
 
 .navbar-custom .nav li a:active,
@@ -70,39 +71,37 @@ h6 {
 }
 
 .navbar-custom .navbar-brand {
-  font-weight: 700
+  font-weight: 700;
 }
 
 .navbar-custom .navbar-brand:focus {
-  outline: 0
+  outline: 0;
 }
 
 
 .navbar-custom .nav li a {
   -webkit-transition: background .2s ease-in-out;
   -moz-transition: background .2s ease-in-out;
-  transition: background .2s ease-in-out
+  transition: background .2s ease-in-out;
 }
 
-
 .navbar-custom .nav li.active {
-  outline: 0
+  outline: 0;
 }
 
 .navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, .3)
+  background-color: rgba(255, 255, 255, .3);
 }
 
 .navbar-custom .nav li.active a:hover {
-  color: #fff
+  color: #fff;
 }
-
 
 @media (min-width:768px) {
   .navbar-custom {
-    padding: 20px 0;
+    padding: 1.1rem 0;
     border-bottom: none;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     background: 0 0;
     -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -127,7 +126,7 @@ h6 {
 
 .intro .intro-body {
   display: table-cell;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 .intro .intro-body .brand-heading {
@@ -142,7 +141,7 @@ h6 {
 @media (min-width:1366px) {
   .intro {
     height: 100%;
-    padding: 0
+    padding: 0;
   }
   /** Website Title Size **/
   .intro .intro-body .brand-heading {

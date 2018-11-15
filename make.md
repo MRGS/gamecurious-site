@@ -15,3 +15,9 @@ Voici une sélection de ressources et d'outils pour développer votre propre jeu
 |[Unity](http://unity3d.com) | Intermédiaire/Intermediate|C#, JS
 |[Godot Engine](http://godotengine.org/) | Intermédiaire/Intermediate | GDscript, C#
 |[Cocos 2D](http://cocos2d.org/) | Avancé/Advanced | C++, JavaScript, XNA, Swift, Python
+
+<br>
+
+### Autres ressources - Other resources
+
+[GameDev Notebook](https://drive.google.com/open?id=1iFpnj2JOtNJUlkB9o8fYkaxGcKd5THo-)
