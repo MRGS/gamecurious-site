@@ -143,6 +143,9 @@ h6 {
     height: 100%;
     padding: 0;
   }
+  .intro-body {
+	  padding-top: 6rem;
+  }
   /** Website Title Size **/
   .intro .intro-body .brand-heading {
     font-size: 60px;
