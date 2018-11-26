@@ -140,11 +140,8 @@ h6 {
 
 @media (min-width:1366px) {
   .intro {
-    height: 100%;
+    height: 60rem;
     padding: 0;
-  }
-  .intro-body {
-	  padding-top: 6rem;
   }
   /** Website Title Size **/
   .intro .intro-body .brand-heading {
@@ -442,6 +439,7 @@ p a:focus, p a:hover {
   top: 250px;
   overflow: hidden;
   width: 258px;
+  width: 25.8rem;
 }
 
 /** Navbar link colour **/
