@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Game Curious Montréal
+title: Curieux.se de Jeux Montréal - Game Curious Montréal
 ---
 {% include intro.md %}
 {% include about.md %}

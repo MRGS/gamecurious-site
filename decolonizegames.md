@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Environmental Justice & Decolonisation
-titre: Justice Environnementale & Décolonisation
+title: Justice Environnementale & Décolonisation - Environmental Justice & Decolonisation
 ---
 
 <section id="games" class="container-fluid content-section text-center bg-lightblue" markdown="1">
 <br>
-## {{ page.titre }} <br> {{ page.title }}
+## {{ page.title | remove: "Justice Environnementale & Décolonisation - " }} <br> {{ page.title | remove: " - Environmental Justice & Decolonisation" }}
 #### 28 Janvier, 2018 — January 28, 2018
 <br>
 </section>

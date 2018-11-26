@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Police d'espace S/curitaire - Safe Space Policy
 ---
 <!-- Safer Spaces Section -->
 <section id="saferspace" class="container-fluid content-section text-center">
@@ -10,7 +11,7 @@ layout: default
   </div>
   <div class="row">
    <div class="col-lg-5 col-lg-offset-1 safer-space-texts" markdown="1">
-## Politique d’espace sécuritaire du collectif Curieux de Jeux Montréal
+## Police d’espace sécuritaire du collectif Curieux de Jeux Montréal
 
 Le Collectif Curieux de Jeux Montréal vide à favoriser un environnement plus sécuritaire à tous ses évènements: ceci veut dire créer un environnement où les personnes qui sont typiquement exclues ou marginalisées dans les espaces liés aux jeux vidéos peuvent se sentir respectées et bienvenues. Le but d’un environnement sécuritaire est d’encourager tous les participant(e)s à travailler ensemble afin de prévenir et de réduire les nuisances, particulièrement envers ceux et celles qui sont souvent la cible de violence et de harcèlement. Les comportements oppressifs qui provoquent un sentiment d’insécurité à autrui ne seront pas tolérés.
 

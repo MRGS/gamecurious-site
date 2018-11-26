@@ -1,14 +1,13 @@
 ---
 layout: default
-title: The Games
-titre: Les Jeux
+title: Les Jeux - The Games
 subtitle: Showcase Games
 soustitre: Jeux Présentés
 ---
 
 <section id="games" class="container-fluid content-section text-center bg-yellow" markdown="1">
 <br>
-## {{ page.titre }} <br> {{ page.title }}
+## {{ page.title | remove: " - The Games" }} <br> {{ page.title | remove: "Les Jeux - "}}
 
 ### {{ page.soustitre }} - {{ page.subtitle }}
 <br>

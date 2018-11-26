@@ -1,5 +1,5 @@
 <!-- Intro Header -->
-<header class="intro bg-yellow">
+<section class="intro bg-yellow">
   <div class="intro-body">
    <div class="bird-left">
    <img src="/img/bird-left.jpg" class="starburst" />
@@ -16,11 +16,6 @@ Une série d’événements accueillants joignant jeux et enjeux de justice soci
 # Game Curious Montréal
 A series of welcoming events connecting games with social justice struggles.
 
-
-
-
-
-
   <a href="{{ site.fbev }}/529105100874023/" class="btn btn-success btn-lg" target="_blank">Next Event / Prochain Evénement</a> 
   <a href="{{ site.antifajam }}" class="btn btn-warning btn-lg">Antifa Game Jam</a> 
   <a href="#schedule" class="btn btn-info btn-lg">Calendrier 2018 Calendar</a>
@@ -36,4 +31,4 @@ A series of welcoming events connecting games with social justice struggles.
  		</div>
    </div>
   </div>
-</header>
+</section>

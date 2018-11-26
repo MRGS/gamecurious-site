@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Immigration & Borders
-titre: Immigration & Frontières
+title: Immigration & Frontières - Immigration & Borders
+titre: 
 ---
 
 <section id="games" class="container-fluid content-section text-center bg-lightyellow" markdown="1">
 <br>
-## {{ page.titre }} <br> {{ page.title }}
+## {{ page.title |  remove: " - Immigration & Borders" }} <br> {{ page.title | remove: " - Immigration & Frontières" }}
 #### 21 Janvier, 2018 — January 21, 2018
 <br>
 </section>

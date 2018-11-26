@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Policing & Prisons
-titre: La Police & Les Prisons
+title: La Police & Les Prisons - Policing & Prisons
 ---
 
 <section id="games" class="container-fluid content-section text-center bg-yellow" markdown="1">
 <br>
-## {{ page.titre }} <br> {{ page.title }}
+## {{ page.title | remove: " - Policing & Prisons" }} <br> {{ page.title | remove: "La Police & Les Prisons - " }}
 #### 4 Février, 2018 — February 4, 2018
 <br>
 </section>
