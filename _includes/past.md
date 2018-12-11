@@ -12,5 +12,6 @@
 -   March 8 - [Game Making Workshop 2/2](https://www.facebook.com/events/185465942055814/) at Café Aquin
 -   March 18 - [Antifascist Game Jam](https://www.facebook.com/events/936474369857196/) at Café Aquin
 -   July 15 - [Games in the Park](https://www.facebook.com/events/486322915136136/) at Parc La Fontaine
+-   September 20, 6-8pm - [New Members Meeting](https://www.facebook.com/events/529105100874023/) - 1500 de Maisonneuve W., room #204
 
 </div>

@@ -4,12 +4,12 @@
 
 ### Prochains Evénements
 
--   20 septembre, 18h-20h - [Rencontre pour nouve.lle.aux membre](https://www.facebook.com/events/529105100874023/) - 1500 de Maisonneuve O., salle #204
+-   Le *Slow Jam* des Curieux de Jeux - TBA
 
 ## Calendar
 
 ### Upcoming Events
 
--   September 20, 6-8pm - [New Members Meeting](https://www.facebook.com/events/529105100874023/) - 1500 de Maisonneuve W., room #204
+- The Game Curious *Slow Jam* - TBA  
 
 </div>

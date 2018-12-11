@@ -11,5 +11,6 @@
 -   Mars 8 - [Atelier de création de jeux 2/2](https://www.facebook.com/events/185465942055814/) au Café Aquin
 -   Mars 18 - [Game jam antifasciste](https://www.facebook.com/events/936474369857196/) au Café Aquin
 -   Juillet 15 - [Jeux dans le parc](https://www.facebook.com/events/486322915136136/) au Parc La Fontaine
+-   20 septembre, 18h-20h - [Rencontre pour nouve.lle.aux membre](https://www.facebook.com/events/529105100874023/) - 1500 de Maisonneuve O., salle #204
 
 </div>
