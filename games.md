@@ -117,3 +117,29 @@ soustitre: Jeux Présentés
 ### [Plus de Jeux / More Games]({{ site.baseurl }}{% link feminismevent.md %})
 
 </section>
+
+{% assign ev = 'capitalism' %}
+<section id="{{ ev }}" class="container-fluid content-section text-center bg-yellow" markdown="1">
+
+### Le Capitalisme et Les Luttes Ouvrières <br> Capitalism and Workers’ Struggles
+#### 14 Février, 2018 — February 14th, 2018
+
+{% for game in site.capitalism %}
+<div class="text-justify" markdown="1">
+<img src="/img/{{ game.tag }}/{{ game.img }}" alt="{{ game.title }}" class="img-responsive; {{ game.dir }}">
+
+---
+
+#### {{ game.title }}, {{ game.dev }}<br>[{{ game.web }}](http://{{ game.web }}) 
+{{ game.content }}
+
+</div>
+{% endfor %}
+
+---
+
+<br>
+
+### [Plus de Jeux / More Games]({{ site.baseurl }}{% link capitalismgames.md %})
+
+</section>

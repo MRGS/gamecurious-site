@@ -46,3 +46,7 @@ collections:
             output: true
         immigrationextra:
             output: true
+        capitalism:
+            output: true
+        capitalismextra:
+            output: true
