@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Police d'espace S/curitaire - Safe Space Policy
+title: Police d'espace Sécuritaire - Safe Space Policy
 ---
 <!-- Safer Spaces Section -->
 <section id="saferspace" class="container-fluid content-section text-center">
