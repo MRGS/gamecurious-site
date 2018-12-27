@@ -55,7 +55,7 @@ h6 {
 .navbar-custom .navbar-toggle {
   color: #fff;
   background-color: rgba(255, 255, 255, .2);
-  font-size: 0.8rem;
+  font-size: 1.4rem;
 }
 
 .navbar-custom .nav li a:active,
@@ -78,8 +78,7 @@ h6 {
   outline: 0;
 }
 
-
-.navbar-custom .nav li a {
+.nanavbar-custom .nav li a {
   -webkit-transition: background .2s ease-in-out;
   -moz-transition: background .2s ease-in-out;
   transition: background .2s ease-in-out;
@@ -95,6 +94,22 @@ h6 {
 
 .navbar-custom .nav li.active a:hover {
   color: #fff;
+}
+
+/* submenu */
+.nav ul {
+	background-color: rgba(255, 210, 66, 0.85);
+	width: 100rem;
+	position: absolute;
+	left: -999rem;
+	top: 1rem;
+	list-style: none;
+	line-height: 3.42rem;
+	border-bottom-left-radius: 1rem;
+}
+.nav li:hover ul {
+	left: 0;
+	top: auto;
 }
 
 @media (min-width:768px) {
@@ -145,7 +160,7 @@ h6 {
   }
   /** Website Title Size **/
   .intro .intro-body .brand-heading {
-    font-size: 60px;
+    font-size: 3.75rem;
     line-height: 75px;
   }
   .intro .intro-body .intro-text {
@@ -461,7 +476,7 @@ p a:focus, p a:hover {
 }
 #location iframe {
   float: left;
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
   border: medium solid #000000;
   height: 500px;
 }

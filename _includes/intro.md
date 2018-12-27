@@ -23,8 +23,8 @@ A series of welcoming events connecting games with social justice struggles.
    </div>
    <div class="row">
 <div class="col-lg-6 col-lg-offset-3 text-center">
-<a class="btn btn-circle" href="https://{{ site.fb }}" target="_blank"><i class="fa fa-facebook animated"></i></a> 
-<a class="btn btn-circle" href="https://{{ site.twitter }}" target="_blank"><i class="fa fa-twitter animated" style="margin-left: -4px; margin-top: -7px;"></i></a> 
+<a class="btn btn-circle" href="https://{{ site.fb }}" target="_blank"><i class="fab fa-facebook-f animated"></i></a> 
+<a class="btn btn-circle" href="https://{{ site.twitter }}" target="_blank"><i class="fab fa-twitter animated" style="margin-left: -4px; margin-top: -7px;"></i></a> 
 <a class="btn btn-circle" href="mailto:{{ site.email }}"><i class="fa fa-envelope animated" style="margin-left: -2px; margin-top: -1px;"></i></a> 
 <a class="btn btn-circle" href="https://{{ site.itch }}" target="_blank"><i class="fa fa-gamepad animated" style="margin-left: -4px; margin-top: -7px;"></i></a> 
   		</div>
