@@ -1,4 +1,5 @@
 <!-- Intro Header -->
+<body id="page-top">
 <section class="intro bg-yellow">
   <div class="intro-body">
    <div class="bird-left">
