@@ -5,7 +5,7 @@ title: Féminisme & Consentement - Feminism & Consent
 
 <section id="games" class="container-fluid content-section text-center bg-lightblue" markdown="1">
 <br>
-## {{ page.title | remove: "Féminisme & Consentement - " }} <br> {{ page.title | remove: " - Feminism & Consent" }}
+## {{ page.title | remove: " - Feminism & Consent" }} <br> {{ page.title | remove: "Féminisme & Consentement - " }}
 #### 11 Février, 2018 — February 11, 2018
 <br>
 </section>

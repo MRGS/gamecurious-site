@@ -6,7 +6,7 @@ titre:
 
 <section id="games" class="container-fluid content-section text-center bg-lightyellow" markdown="1">
 <br>
-## {{ page.title |  remove: " - Immigration & Borders" }} <br> {{ page.title | remove: " - Immigration & Frontières" }}
+## {{ page.title |  remove: " - Immigration & Borders" }} <br> {{ page.title | remove: "Immigration & Frontières - " }}
 #### 21 Janvier, 2018 — January 21, 2018
 <br>
 </section>
