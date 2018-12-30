@@ -108,6 +108,7 @@ h6 {
 	padding-left: 1.5rem !important;
 	border-bottom-left-radius: 1rem;
 	overflow: hidden;
+	background-image: linear-gradient(rgba(0,0,0,0), rgba(255, 210, 66, 0.85), rgba(255, 210, 66, 0.85), rgba(255, 210, 66, 0.85), rgba(255, 210, 66, 0.85));
 }
 .nav ul a:hover{
 	text-decoration: none;
