@@ -78,7 +78,7 @@ h6 {
   outline: 0;
 }
 
-.nanavbar-custom .nav li a {
+.navbar-custom .nav li a {
   -webkit-transition: background .2s ease-in-out;
   -moz-transition: background .2s ease-in-out;
   transition: background .2s ease-in-out;
@@ -98,18 +98,23 @@ h6 {
 
 /* submenu */
 .nav ul {
-	background-color: rgba(255, 210, 66, 0.85);
-	width: 100rem;
+/*	background-color: rgba(255, 210, 66, 0.85);*/
+	width: 50vw;
 	position: absolute;
 	left: -999rem;
 	top: 1rem;
 	list-style: none;
 	line-height: 3.42rem;
+	padding-left: 1.5rem !important;
 	border-bottom-left-radius: 1rem;
+	overflow: hidden;
+}
+.nav ul a:hover{
+	text-decoration: none;
 }
 .nav li:hover ul {
-	left: 0;
-	top: auto;
+	left: 0 !important;
+	top: auto !important;
 }
 
 @media (min-width:768px) {
