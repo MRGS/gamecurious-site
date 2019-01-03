@@ -17,7 +17,7 @@ Une série d’événements accueillants joignant jeux et enjeux de justice soci
 # Game Curious Montréal
 A series of welcoming events connecting games with social justice struggles.
 
-  <a href="{{ site.fbev }}/529105100874023/" class="btn btn-success btn-lg" target="_blank">Next Event / Prochain Evénement</a> 
+  <a href="{{ site.fbev }}/2483939685012205/" class="btn btn-success btn-lg" target="_blank">Next Event / Prochain Evénement</a> 
   <a href="{{ site.antifajam }}" class="btn btn-warning btn-lg">Antifa Game Jam</a> 
   <a href="#schedule" class="btn btn-info btn-lg">Calendrier 2018 Calendar</a>
    </div>
