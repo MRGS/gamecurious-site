@@ -22,6 +22,9 @@ Voici une sélection de ressources et d'outils pour développer votre propre jeu
 <br>
 
 ### Tutoriels - Tutorials
+
+| Nom<br>Name | Description 
+|---|---
 | [Godot Docs](http://docs.godotengine.org/) | Official Godot Engine documentation. Features tutorials for getting started, as well as some advanced stuff
 | [GDQuest](https://www.gdquest.com/) | A series of tutorials focused on the Godot Game engine
 
