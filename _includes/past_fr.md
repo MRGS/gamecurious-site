@@ -1,4 +1,9 @@
 <div class="col-lg-5 col-lg-offset-1" markdown="1">
+## Evénements Passés 2019
+
+- Let's Play: Jeux Coops - [19 Janvier]({{ site.fbev }}/2459541064117821/)
+- Le *Slow Jam* des Curieux de Jeux - [19 Janvier au 7 Février]({{ site.fbev }}/2483939685012205/)
+
 ## Evénements Passés 2018
 
 -   Jan 13 - [Curieux de Jeux Launch Party](https://www.facebook.com/events/296609784174094/) à QPIRG Concordia
