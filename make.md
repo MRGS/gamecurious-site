@@ -30,4 +30,6 @@ Voici une sélection de ressources et d'outils pour développer votre propre jeu
 
 ### Autres ressources - Other resources
 
+[Open Pixel Project](https://www.openpixelproject.com/) - a collaborative effort to create freely available art assets for games, shared in the public domain! That means anyone is free to edit, rip, steal, use, share or do whatever you wish with these assets in any way, without any obligations to the project creators!
+
 [GameDev Notebook](https://drive.google.com/open?id=1iFpnj2JOtNJUlkB9o8fYkaxGcKd5THo-) - Nous avons pris un carnet qui avait été distribué lors de la conférence GDC, et nous l'avons modifiés! Amusez-vous et sentez-vous libres de remixer! (Anglais seulement) <br> We hacked a Notebook that was distributed at GDC. Enjoy and feel free to remix!
