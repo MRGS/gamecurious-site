@@ -31,7 +31,7 @@ Voici une sélection de ressources et d'outils pour développer votre propre jeu
 | [Unity Documentation](https://docs.unity3d.com/) | Official Unity Engine user manual, featuring introductory documentation, tutorials, and more!
 | [Unreal Documentation](https://docs.unrealengine.com/en-us/) | Official Unreal Engine documentation. Includes introductory documentation, tutorials, and more!
 
-<br<>
+<br>
 ### Autres ressources - Other resources
 
 | [Open Pixel Project](https://www.openpixelproject.com/) | A collaborative effort to create freely available art assets for games, shared in the public domain! That means anyone is free to edit, rip, steal, use, share or do whatever you wish with these assets in any way, without any obligations to the project creators!
