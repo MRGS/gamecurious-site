@@ -12,11 +12,11 @@
    <div class="row">
    <div class="col-md-8 col-md-offset-2 intro-text-box" markdown="1">
 # {{ site.title.[page.lang] }} 
-Une série d’événements accueillants joignant jeux et enjeux de justice sociale.
+{{ site.t.[page.lang].intro }}
 
-  <a href="{{ site.fbev }}/2483939685012205/" class="btn btn-success btn-lg" target="_blank">Prochain Evénement</a> 
-  <a href="{{ site.antifajam }}" class="btn btn-warning btn-lg">Antifa Game Jam</a> 
-  <a href="#schedule" class="btn btn-info btn-lg">Calendrier 2019</a>
+  <a href="{{ site.fbev }}/352274858749229/" class="btn btn-success btn-lg" target="_blank">{{ site.t.[page.lang].next }}</a> 
+  <a href="{{ site.antifajam }}" class="btn btn-warning btn-lg">{{ site.t.[page.lang].jam }}</a> 
+  <a href="#schedule" class="btn btn-info btn-lg">{{ site.t.[page.lang].calendar }}</a>
    </div>
    </div>
    <div class="row">

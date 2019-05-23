@@ -49,8 +49,6 @@ collections:
         decolonizeextra:
             output: true
         immigration:
-            fr:
-              output: true
             output: true
         immigrationextra:
             output: true
@@ -72,6 +70,26 @@ t:
                 games:
                         name: 'Les Jeux'
                         url: '/fr/games'
+                events:
+                        name: 'Événements'
+                        url: '/fr/#schedule'
+                make:
+                        name: 'Fabriquez!'
+                        url: '/fr/make'
+                faq:
+                        name: 'FAQ'
+                        url: '/fr/faq'
+                saferspace:
+                        name: "Politique d'espace Securitaire"
+                        url: '/fr/saferspace'
+                contact: 
+                        name: 'Nous Joindre'
+                        url: '/fr/#contact'
+                foot: 'Curieux.se de Jeux est un groupe de travail de GRIP-Concordia'
+                intro: 'Une série d’événements accueillants joignant jeux et enjeux de justice sociale.'
+                next: 'Prochain Événement'
+                calendar: 'Calendrier 2019'
+                jam: 'Game Jam Antifasciste'
                 gameslist:
                         capitalism:
                                 name: 'Le Capitalisme & Les Luttes Ouvrières'
@@ -93,22 +111,6 @@ t:
                                 name: 'La Police & Les Prisons'
                                 date: '4 Février 2018'
                                 url: '/fr/policeprisonsgames'
-                events:
-                        name: 'Événements'
-                        url: '/fr/#schedule'
-                make:
-                        name: 'Fabriquez!'
-                        url: '/fr/make'
-                faq:
-                        name: 'FAQ'
-                        url: '/fr/faq'
-                saferspace:
-                        name: "Politique d'espace Securitaire"
-                        url: '/fr/saferspace'
-                contact: 
-                        name: 'Nous Joindre'
-                        url: '/fr/#contact'
-                foot: 'Curieux.se de Jeux est un groupe de travail de GRIP-Concordia'
         en:
                 home:
                         name: 'Game Curious Montreal'
@@ -137,6 +139,10 @@ t:
                         name: 'Contact Us'
                         url: '/en/#contact'
                 foot: 'Game Curious is a working group of QPIRG-Concordia'
+                intro: 'A series of welcoming events connecting games with social justice struggles.'
+                next: 'Next Event'
+                calendar: '2019 Calendar'
+                jam: 'AntiFa Game Jam'
                 gameslist:
                         capitalism:
                                 name: 'Capitalism & Workers Struggles'

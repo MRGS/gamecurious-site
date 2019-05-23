@@ -3,6 +3,7 @@
 ### Past Events 2019
 - Let's Play: Coops Games - [January 19th]({{ site.fbev }}/2459541064117821/)
 - The Game Curious *Slow Jam* - [19th of January until the 7th of February]({{ site.fbev }}/2483939685012205/)
+- Anti-facist Game Jam - [From March 30th, until the end of April]({{ site.fbev }}/840567319669135/)
 
 ### Past Events 2018
 -   Jan 13 - [Game Curious Launch Party](https://www.facebook.com/events/296609784174094/) at QPIRG Concordia

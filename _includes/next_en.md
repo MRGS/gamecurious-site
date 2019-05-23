@@ -3,5 +3,8 @@
 ## Calendar
 
 ### Upcoming Events
-- Anti-facist Game Jam - [From March 30th, until the end of April](https://www.facebook.com/events/840567319669135/)
+
+- Antifa games at the Library - [Thursday, May 23rd, from 6PM to 8PM, at 2100 Guy Street, suite #205](https://www.facebook.com/events/352274858749229/)
+- Let's Play WINTERHORN at the Anarchist Bookfair - [Sunday, May 26th, from 3PM to 4:45PM, 2450 Workman Street (Lionel-Groulx metro)](http://www.anarchistbookfair.ca/program-and-events/)
+
 </div>

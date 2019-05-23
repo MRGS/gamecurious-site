@@ -2,6 +2,7 @@
 
 ## Calendrier
 ### Prochains Evénements
-- Jam Anti-faciste - [À partir du 30 Mars, jusqu'à la fin du mois d'Avril](https://www.facebook.com/events/840567319669135/)
+- Jeux Antifacistes à la bibliothèque - [Jeudi, 23 Mai, de 18h à 20h, au 2100 Rue Guy, suite #205](https://www.facebook.com/events/352274858749229/)
+- Jouons à WINTERHORN au Salon du Livre Anarchiste - [Dimanche, 26 Mai, 15h à 16h45, 2450, Rue Workman (Métro Lionel-Groulx)](http://www.salonanarchiste.ca/programme-et-evenements/)
 
 </div>
