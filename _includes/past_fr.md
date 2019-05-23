@@ -1,11 +1,9 @@
-<div class="col-lg-5 col-lg-offset-1" markdown="1">
-## Evénements Passés 2019
-
+<div class="col-lg-4 text-left" markdown="1">
+### Evénements Passés 2019
 - Let's Play: Jeux Coops - [19 Janvier]({{ site.fbev }}/2459541064117821/)
 - Le *Slow Jam* des Curieux de Jeux - [19 Janvier au 7 Février]({{ site.fbev }}/2483939685012205/)
 
-## Evénements Passés 2018
-
+### Evénements Passés 2018
 -   Jan 13 - [Curieux de Jeux Launch Party](https://www.facebook.com/events/296609784174094/) à QPIRG Concordia
 -   Jan 21 - [Immigration et frontières](https://www.facebook.com/events/1680597415316425/) au Café Aquin ([liste des jeux](http://gamecuriousmtl.mrgs.ca/games.html#immigrationgames))
 -   Jan 28 - [La justice environnementale et la décolonisation](https://www.facebook.com/events/544124215942190/) au Café Aquin ([liste des jeux](http://gamecuriousmtl.mrgs.ca/games.html#decolonizationgames))
@@ -16,6 +14,6 @@
 -   Mars 8 - [Atelier de création de jeux 2/2](https://www.facebook.com/events/185465942055814/) au Café Aquin
 -   Mars 18 - [Game jam antifasciste](https://www.facebook.com/events/936474369857196/) au Café Aquin
 -   Juillet 15 - [Jeux dans le parc](https://www.facebook.com/events/486322915136136/) au Parc La Fontaine
--   20 septembre, 18h-20h - [Rencontre pour nouve.lle.aux membre](https://www.facebook.com/events/529105100874023/) - 1500 de Maisonneuve O., salle #204
+-   20 septembre, 18h-20h - [Rencontre pour nouve.lles.aux membres](https://www.facebook.com/events/529105100874023/) - 1500 de Maisonneuve O., salle #204
 
 </div>

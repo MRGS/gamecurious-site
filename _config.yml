@@ -1,10 +1,14 @@
-title: Curieux.se de Jeux Montréal - Game Curious Montreal
+title:
+        fr: Curieux.se de Jeux Montréal
+        en: Game Curious Montreal
+
 url: https://gamecuriousmtl.mrgs.ca
 author: Game Curious Montreal Collective
 timezone: America/Toronto
 
+langs: ['en','fr']
+
 permalink: pretty
-markdown: kramdown
 
 email: gamecuriousmtl@gmail.com
 anonemail: ssahmrgs@gmail.com
@@ -15,6 +19,7 @@ antifajam: https://itch.io/jam/antifa-game-jam
 fbev: https://facebook.com/events
 
 # partner links
+handeye: https://handeyesociety.com/
 gcto: https://handeyesociety.com/game-curious
 qpirg: https://qpirgconcordia.org
 aveq: https://aveq-nous.ca
@@ -29,6 +34,7 @@ cw: Content Warnings
 plugins:
         - jekyll-sitemap
 
+collections_dir: games
 collections:
         policing:
             output: true
@@ -43,6 +49,8 @@ collections:
         decolonizeextra:
             output: true
         immigration:
+            fr:
+              output: true
             output: true
         immigrationextra:
             output: true
@@ -50,3 +58,103 @@ collections:
             output: true
         capitalismextra:
             output: true
+            
+t:
+        fr:
+                home:
+                        name: 'Curiex.se de Jeux Montréal'
+                        url: '/fr/'
+                page_top: '/fr/#page-top'
+                about_menu: 'À Propos'
+                about:
+                        name: 'À Propos de'
+                        url: '/fr/#about'
+                games:
+                        name: 'Les Jeux'
+                        url: '/fr/games'
+                gameslist:
+                        capitalism:
+                                name: 'Le Capitalisme & Les Luttes Ouvrières'
+                                date: '14 Février 2018'
+                                url: '/fr/capitalismgames'
+                        decolonize:
+                                name: 'Justice Environnementale & Décolonisation'
+                                date: '28 Janvier 2018'
+                                url: '/fr/decolonizegames'
+                        feminism:
+                                name: 'Féminisme & Consentement'
+                                date: '11 Février 2018'
+                                url: '/fr/feminismevent'
+                        immigration:
+                                name: 'Immigration & Frontières'
+                                date: '21 Janvier 2018'
+                                url: '/fr/immigrationgames'
+                        policing:
+                                name: 'La Police & Les Prisons'
+                                date: '4 Février 2018'
+                                url: '/fr/policeprisonsgames'
+                events:
+                        name: 'Événements'
+                        url: '/fr/#schedule'
+                make:
+                        name: 'Fabriquez!'
+                        url: '/fr/make'
+                faq:
+                        name: 'FAQ'
+                        url: '/fr/faq'
+                saferspace:
+                        name: "Politique d'espace Securitaire"
+                        url: '/fr/saferspace'
+                contact: 
+                        name: 'Nous Joindre'
+                        url: '/fr/#contact'
+                foot: 'Curieux.se de Jeux est un groupe de travail de GRIP-Concordia'
+        en:
+                home:
+                        name: 'Game Curious Montreal'
+                        url: '/en/'
+                page_top: '/en/#page-top'
+                about_menu: 'About'
+                about:
+                        name: 'About'
+                        url: '/en/#about'
+                games:
+                        name: 'The Games'
+                        url: '/en/games'
+                events:
+                        name: 'Events'
+                        url: '/en/#schedule'
+                make:
+                        name: 'Make!'
+                        url: '/en/make'
+                faq:
+                        name: 'FAQ'
+                        url: '/en/faq'
+                saferspace:
+                        name: 'Safer Space Policy'
+                        url: '/en/saferspace'
+                contact: 
+                        name: 'Contact Us'
+                        url: '/en/#contact'
+                foot: 'Game Curious is a working group of QPIRG-Concordia'
+                gameslist:
+                        capitalism:
+                                name: 'Capitalism & Workers Struggles'
+                                date: 'February 14 2018'
+                                url: '/en/capitalismgames'
+                        decolonize:
+                                name: 'Environmental Justice & Decolonisation'
+                                date: 'January 28 2018'
+                                url: '/en/decolonizegames'
+                        feminism:
+                                name: 'Feminism & Consent'
+                                date: 'February 11 2018'
+                                url: '/en/feminismevent'
+                        immigration:
+                                name: 'Immigration & Borders'
+                                date: 'January 21 2018'
+                                url: '/en/immigrationgames'
+                        policing:
+                                name: 'Policing & Prisons'
+                                date: 'February 4 2018'
+                                url: '/en/policeprisonsgames'
