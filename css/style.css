@@ -111,6 +111,9 @@ h6 {
 	overflow: hidden;
 	background-image: linear-gradient(rgba(0,0,0,0), rgba(255, 210, 66, 0.85), rgba(255, 210, 66, 0.85), rgba(255, 210, 66, 0.85), rgba(255, 210, 66, 0.85));
 }
+.navbar-custom.top-nav-collapse ul {
+	padding-left: 1.2rem;
+}
 .nav ul a:hover{
 	text-decoration: none;
 }
@@ -437,9 +440,6 @@ p a:focus, p a:hover {
     padding: 0;
     background-color: rgba(255,209,93,0.88);
     border-bottom: 1px solid rgba(255, 255, 255, .3);
-	}
-	.navbar-custom.top-nav-collapse ul {
-		padding-left: 1.2rem;
 	}
 }
 .btn {
