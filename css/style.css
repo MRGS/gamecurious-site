@@ -118,22 +118,6 @@ h6 {
 	left: 0 !important;
 	top: auto !important;
 }
-
-@media (min-width:768px) {
-  .navbar-custom {
-    padding: 0.7rem 0;
-    border-bottom: none;
-    letter-spacing: 0.1rem;
-    background: 0 0;
-    transition: background .5s ease-in-out, padding .5s ease-in-out;
-  }
-    /** Nav Bar Colour **/
-	.navbar-custom.top-nav-collapse {
-    padding: 0;
-    background-color: rgba(255,209,93,0.88);
-    border-bottom: 1px solid rgba(255, 255, 255, .3);
-	}
-}
 .intro {
 	display: table;
 	height: auto;
@@ -231,38 +215,6 @@ h6 {
   width: 100%;
   height: 200px;
   margin-top: 6.25rem
-}
-
-@media (min-width:767px) {
-  .content-section {
-    padding-top: 6.25rem;
-    padding-bottom: 2.5rem;
-  }
-  .download-section {
-    padding: 6.25rem 0
-  }
-}
-
-.btn {
-  font-weight: 400;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  border-radius: 0
-}
-
-.btn-default {
-  border: 1px solid #8092eb;
-  color: #8092eb;
-  background-color: transparent
-}
-
-.btn-default:focus,
-.btn-default:hover {
-  border: 1px solid #8092eb;
-  outline: 0;
-  color: #000;
-  background-color: #8092eb
 }
 
 ul.banner-social-buttons {
@@ -463,6 +415,53 @@ p a:focus, p a:hover {
 
 .partners-link img {
 	width: 12rem;
+}
+
+@media (min-width:48rem) {
+  .content-section {
+    padding-top: 6.25rem;
+    padding-bottom: 2.5rem;
+  }
+  .download-section {
+    padding: 6.25rem 0
+  }
+  .navbar-custom {
+    padding: 0.7rem 0;
+    border-bottom: none;
+    letter-spacing: 0.1rem;
+    background: 0 0;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+    /** Nav Bar Colour **/
+	.navbar-custom.top-nav-collapse {
+    padding: 0;
+    background-color: rgba(255,209,93,0.88);
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+	}
+	.navbar-custom.top-nav-collapse ul {
+		padding-left: 1.2rem;
+	}
+}
+.btn {
+  font-weight: 400;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  border-radius: 0
+}
+
+.btn-default {
+  border: 1px solid #8092eb;
+  color: #8092eb;
+  background-color: transparent
+}
+
+.btn-default:focus,
+.btn-default:hover {
+  border: 1px solid #8092eb;
+  outline: 0;
+  color: #000;
+  background-color: #8092eb
 }
 
 @media (max-width:48rem) {
