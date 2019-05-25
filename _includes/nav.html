@@ -30,7 +30,7 @@
 		<li> <a class="page-scroll" href="{{ site.t.[page.lang].contact.url }}">{{ site.t.[page.lang].contact.name }}</a></li>
 	<li> <a>{{ page.lang }}<i class="fas fa-caret-down"></i></a>
 		<ul class="navbar navbar-custom navbar-fixed-top">
-			{% for lang in site.langs %}
+			{% for lang in site.languages %}
 			<li><a href="/{{ lang }}{{ page.url | remove_first: "/" | remove: page.lang }}">{{ lang }}</a></li>
 			{% endfor %}
 		</ul>	

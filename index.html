@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		    <meta charset="utf-8">
+		    <title>{{ site.title.[page.lang] }} </title>
+	</head>
+	<body>
+	<script>
+		    var lang = navigator.language || navigator.userLanguage;
+    if (lang.indexOf('en') == 0)
+	        window.location = '/en/';
+        // Other languages here
+    else
+	        // Default to English
+	        window.location = '/fr/';
+	</script>
+	</body>
+</html>
+
