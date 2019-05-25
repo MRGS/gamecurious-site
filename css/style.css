@@ -363,8 +363,8 @@ p a:focus, p a:hover {
   color: #0085f0;
 }
 #schedule img {
-  /*width: 80%;*/
-	width: 27rem;
+	width: 80%;
+	/*width: 27rem;*/
 	height: 0%;
 	margin-bottom: 4rem;
 }
