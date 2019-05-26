@@ -4,6 +4,7 @@
 - Let's Play: Coops Games - [January 19th]({{ site.fbev }}/2459541064117821/)
 - The Game Curious *Slow Jam* - [19th of January until the 7th of February]({{ site.fbev }}/2483939685012205/)
 - Anti-facist Game Jam - [From March 30th, until the end of April]({{ site.fbev }}/840567319669135/)
+- Antifa games at the Library - [Thursday, May 23rd, from 6PM to 8PM, at 2100 Guy Street, suite #205](https://www.facebook.com/events/352274858749229/)
 
 ### Past Events 2018
 -   Jan 13 - [Game Curious Launch Party](https://www.facebook.com/events/296609784174094/) at QPIRG Concordia
