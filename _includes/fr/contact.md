@@ -11,7 +11,5 @@
 
 *Itch.io:* [{{ site.itch }}](https://{{ site.itch }})
 
-*Rapports anonymes:* [{{ site.anonemail }}](mailto:{{ site.anonemail }})
-
 *Société Ludique du Mont Royal:* [mrgs.ca](http://mrgs.ca/)
 

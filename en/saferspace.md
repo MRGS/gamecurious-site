@@ -24,7 +24,6 @@ Participants whose behaviour is making others around them feel unsafe will be as
 If you feel that someone is making the space unsafe for you, if you notice that someone else is being made to feel unsafe, or if you have any other concerns, please contact an organizer. Organizers and volunteers will be happy to help participants contact venue security, provide escorts, or otherwise help you to feel safe for the duration of the events. We value your attendance.
 
 * Email address of organizers: [{{ site.email }}](mailto:{{ site.email }})
-* Anonymous Safer Space report email: [{{ site.anonemail }}](mailto:{{ site.anonemail }})
 * Local sexual assault hotline: **514 398-8500** [SACoMSS](http://sacomss.org)
 * Local emergency and non-emergency medical: **911**
 * Local taxi company: **Taxi Diamond 514 273-6331**

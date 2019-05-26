@@ -11,7 +11,5 @@
 
 *Itch.io:* [{{ site.itch }}](https://{{ site.itch }})
 
-*Anonymous safer space reports:* [{{ site.anonemail }}](mailto:{{ site.anonemail }})
-
 *Mount Royal Game Society:* [mrgs.ca](http://mrgs.ca/)
 

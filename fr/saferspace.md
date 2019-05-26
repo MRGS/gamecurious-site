@@ -23,7 +23,6 @@ Il sera demandé aux participant(e)s dont le comportement nuit au bien-être des
 Si vous ressentez que quelqu’un nuit à votre confort et votre sécurité, si vous remarquez que le bien-être de quelqu’un d’autre est atteint, ou si vous avez quelconque autre souci, n’hésitez pas à contacter un(e) des volontaires ou des médiateurs/trices de la politique d’environnement sécuritaire. Les organisateurs(trices), les volontaires, et les médiateurs/trices seront prêts à vous aider à contacter la sécurité des lieux, à offrir de vous escorter, ou à vous aider de quelque autre manière à vous sentir en sécurité pendant nos événements. Votre présence compte pour nous.
 
 * Courriel de l'organisme: [{{ site.email }}](mailto:{{ site.email }})
-* Courriel de rapports anonymes: [{{ site.anonemail }}](mailto:{{ site.anonemail }})
 * Ligne d’aide aux agressions sexuelle: **514 398-8500** [SACoMSS](http://sacomss.org)
 * Urgences médicales locales: **911**
 * Compagnie de taxi locale: **Taxi Diamond 514 273-6331**
