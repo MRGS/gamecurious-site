@@ -4,6 +4,6 @@
 
 ### Upcoming Events
 
-- Let's Play WINTERHORN at the Anarchist Bookfair - [Sunday, May 26th, from 3PM to 4:45PM, 2450 Workman Street (Lionel-Groulx metro)](http://www.anarchistbookfair.ca/program-and-events/)
+To be announced!
 
 </div>

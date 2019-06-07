@@ -1,6 +1,7 @@
 <div class="col-lg-4 text-left" markdown="1">
 
 ### Past Events 2019
+- Let's Play WINTERHORN at the Anarchist Bookfair - [Sunday, May 26th, from 3PM to 4:45PM, 2450 Workman Street (Lionel-Groulx metro)](http://www.anarchistbookfair.ca/program-and-events/)
 - Let's Play: Coops Games - [January 19th]({{ site.fbev }}/2459541064117821/)
 - The Game Curious *Slow Jam* - [19th of January until the 7th of February]({{ site.fbev }}/2483939685012205/)
 - Anti-facist Game Jam - [From March 30th, until the end of April]({{ site.fbev }}/840567319669135/)

@@ -1,5 +1,6 @@
 <div class="col-lg-4 text-left" markdown="1">
 ### Evénements Passés 2019
+- Jouons à WINTERHORN au Salon du Livre Anarchiste - [Dimanche, 26 Mai, 15h à 16h45, 2450, Rue Workman (Métro Lionel-Groulx)](http://www.salonanarchiste.ca/programme-et-evenements/)
 - Let's Play: Jeux Coops - [19 Janvier]({{ site.fbev }}/2459541064117821/)
 - Le *Slow Jam* des Curieux de Jeux - [19 Janvier au 7 Février]({{ site.fbev }}/2483939685012205/)
 - Jam Anti-faciste - [À partir du 30 Mars, jusqu'à la fin du mois d'Avril]({{ site.fbev }}/840567319669135/)

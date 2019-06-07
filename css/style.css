@@ -388,6 +388,10 @@ p a:focus, p a:hover {
   height: 500px;
 }
 
+.container {
+	width: 90vw !important;
+}
+
 .container-fluid {
 	padding-right: 1rem;
 	padding-left: 1rem;
